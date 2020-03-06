@@ -4,9 +4,32 @@
 		<script src="https://d3js.org/d3.v5.min.js"></script>
 		<script src="chart2.js"></script>
 		 <link rel="stylesheet" href="chart.css">
+	</head>
+	<body>
+		<div id='layout'>
+		    <!-- <h2>Bar chart example</h2> -->
+		    <div id='possession-type-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		    <div id='possession-result-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		    <div id='play-type-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		  </div>
+
+
+
+
+
 		<script>
+
+
+
+
 			var possessions = TAFFY([]);
-			insert_data()
+			//insert_data()
 			
 
 			function insert_data(){
@@ -87,20 +110,6 @@
 				console.log(possessions({Opponent: "Albany"}).get())
 			}
 		</script>
-	</head>
-	<body>
-		<div id='layout'>
-		    <!-- <h2>Bar chart example</h2> -->
-		    <div id='possession-type-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		    <div id='possession-result-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		    <div id='play-type-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		  </div>
 	</body>
 				
 </html>
