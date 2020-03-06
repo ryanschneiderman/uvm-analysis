@@ -10,7 +10,7 @@
 			
 
 			function insert_data(){
-				d3.csv("/data/possessions2.csv").then(function(data) {
+				d3.csv("/uvm-analysis/data/possessions2.csv").then(function(data) {
 					data.forEach(function(d) {
 					    d.Points = +d.Points;
 					    possessions.insert(d)
