@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Bar chart with D3.js</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="chart.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="chart2.js"></script>
+  <style></style>
+</head>
+<body>
+  <div id='layout'>
+    <!-- <h2>Bar chart example</h2> -->
+    <div id='container'>
+      <svg />
+    </div>
+  </div>
+  <script>
+      var sample = [
+      {
+        type: 'Rust',
+        value: 78.9,
+        color: '#000000'
+      },
+      {
+        type: 'Kotlin',
+        value: 75.1,
+        color: '#00a2ee'
+      },
+      {
+        type: 'Python',
+        value: 68.0,
+        color: '#fbcb39'
+      },
+      {
+        type: 'TypeScript',
+        value: 67.0,
+        color: '#007bc8'
+      },
+      {
+        type: 'Go',
+        value: 65.6,
+        color: '#65cedb'
+      },
+      {
+        type: 'Swift',
+        value: 65.1,
+        color: '#ff6e52'
+      },
+      {
+        type: 'JavaScript',
+        value: 61.9,
+        color: '#f9de3f'
+      },
+      {
+        type: 'C#',
+        value: 60.4,
+        color: '#5d2f8e'
+      },
+      {
+        type: 'F#',
+        value: 59.6,
+        color: '#008fc9'
+      },
+      {
+        type: 'Clojure',
+        value: 59.6,
+        color: '#507dca'
+      }
+    ];
+     initialize_chart(sample)
+  </script>
+</body>
+</html>
+
+

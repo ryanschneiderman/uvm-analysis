@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<script src="taffy-min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="chart2.js"></script>
+		 <link rel="stylesheet" href="chart.css">
+		<script>
+			var possessions = TAFFY([]);
+			insert_data()
+			
+
+			function insert_data(){
+				d3.csv("/data/possessions2.csv").then(function(data) {
+					data.forEach(function(d) {
+					    d.Points = +d.Points;
+					    possessions.insert(d)
+					    //console.log(d)
+					  });
+					insert_flow_chart()
+					insert_shot_type_chart()
+					insert_play_type_chart()
+				});
+			}
+
+			function get_flow_object(flow_type){
+				var poss = possessions({Flow: flow_type})
+				var points = poss.sum("Points")
+				var count = poss.count()
+				var val = points/count;
+				var scl = possessions({Flow: flow_type, Shot_type: "Semi-contested layup"})
+				console.log(flow_type + " semi-contested layups: " + scl.count())
+				return {type: flow_type, value: val.toFixed(2), count: count}
+			}
+
+			function insert_flow_chart(){
+				var halfcourt_obj = get_flow_object("Halfcourt")
+				var transition_obj = get_flow_object("Transition")
+				var putback_obj = get_flow_object("Putback")
+
+				var data = [halfcourt_obj, transition_obj, putback_obj]
+				initialize_chart(data, "#possession-type-chart")
+
+				//console.log("points per halfcourt possession: " + halfcourt_points/halfcourt_count)
+				//console.log("points per transition possession: " + transition_points/transition_count)
+				//console.log("points per putback possession: " + putback_points/putback_count)
+			}
+
+			function get_shot_type_object(shot_type){
+				var poss = possessions({Shot_type: shot_type})
+				var points = poss.sum("Points")
+				var count = poss.count()
+				var val = points/count;
+				return {type: shot_type, value: val.toFixed(2), count: count}
+			}
+
+			function insert_shot_type_chart(){
+				var scl = get_shot_type_object("Semi-contested layup")
+				var cl = get_shot_type_object("Contested layup")
+				var ol = get_shot_type_object("Open layup")
+				var sc3 = get_shot_type_object("Semi-contested 3")
+				var c3 = get_shot_type_object("Contested 3")
+				var o3 = get_shot_type_object("Open 3")
+				var c2 = get_shot_type_object("Contested 2")
+				var sc2 = get_shot_type_object("Semi-contested 2")
+				var fl = get_shot_type_object("Floater")
+				var data = [ol, o3, scl, sc3, sc2, cl, c3, c2, fl, ];
+				initialize_chart(data, "#possession-result-chart")
+			}
+
+			function get_play_type_object(play_type){
+				var poss = possessions({Play: play_type})
+				var points = poss.sum("Points")
+				var count = poss.count()
+				var val = points/count;
+				return {type: play_type, value: val.toFixed(2), count: count}
+			}
+
+			function insert_play_type_chart(){
+				var sets = get_play_type_object("Set")
+				var base = get_play_type_object("Base")
+				var zone = get_play_type_object("Zone")
+				var data = [sets, base, zone]
+				initialize_chart(data, "#play-type-chart")
+			}
+
+			function test_query(){
+				console.log(possessions({Opponent: "Albany"}).get())
+			}
+		</script>
+	</head>
+	<body>
+		<div id='layout'>
+		    <!-- <h2>Bar chart example</h2> -->
+		    <div id='possession-type-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		    <div id='possession-result-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		    <div id='play-type-chart' class = "bar-chart">
+		      <svg />
+		    </div>
+		  </div>
+	</body>
+				
+</html>

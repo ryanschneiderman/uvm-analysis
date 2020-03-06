@@ -1,0 +1,384 @@
+Revisit,Number_of_attacks,Committed_defenders,Play,Flow,Successful,Shot_type,Points,Time,Opponent,Half
+,2,2,Base,OB,N/A,Open 3,0,19:10,Dartmouth,1
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,3,18:25,Dartmouth,1
+,1,1,Transition,Transition,,Contested layup,0,17:48,Dartmouth,1
+,2,1,Set,Halfcourt,No,Semi-contested 3,0,17:34,Dartmouth,1
+,2,2,Base,Halfcourt,,Open 3,0,16:50,Dartmouth,1
+,1,0,Set,Halfcourt,Yes,Semi-contested floater,2,16:00,Dartmouth,1
+,1,0,Base,Halfcourt,,Fade away 2,0,15:35,Dartmouth,1
+,1,0,Transition,Transition,,Open Layup,0,15:12,Dartmouth,1
+,2,1,Set,Halfcourt,No,contested layup,2,14:50,Dartmouth,1
+,0,2,OB,OB,Yes,Open 3,0,13:45,Dartmouth,1
+,1,0,Transition,Transition,,Dunk,2,13:19,Dartmouth,1
+,0,1,Base,Halfcourt,Yes,Open layup,2,12:55,Dartmouth,1
+,1,1,Base,OB,,Semi-contested 3,0,12:30,Dartmouth,1
+,1,1,Base,Halfcourt,,Open lay up,0,11:30,Dartmouth,1
+,1,0,Base,Halfcourt,,Contested lay up,2,11:05,Dartmouth,1
+,1,0,Base,Halfcourt,,Contested lay up,0,10:30,Dartmouth,1
+,1,1,Base,Halfcourt,,Semi-contested 3,0,10:15,Dartmouth,1
+,1,1,Set,Halfcourt,Yes,Open layup,2,9:50,Dartmouth,1
+,1,1,Base,Halfcourt,,Turnover,0,9:20,Dartmouth,1
+,1,0,Set,Halfcourt,Yes,Hook shot,0,8:45,Dartmouth,1
+,1,1,Base,Halfcourt,,Open 3,4,8:20,Dartmouth,1
+,1,1,Set,Halfcourt,Yes,Open 3,0,7:55,Dartmouth,1
+,0,0,Transition,Transition,,Semi-contested 3,3,7:19,Dartmouth,1
+,1,1,Transition,Transition,,Foul,2,6:40,Dartmouth,1
+,2,2,Base,Halfcourt,,Open lay up,2,6:10,Dartmouth,1
+,1,0,Set,Halfcourt,Yes,Contested lay up,2,5:40,Dartmouth,1
+,0,1,Base,Halfcourt,,Contested 3,0,4:55,Dartmouth,1
+,0,0,Set,Halfcourt,,Contested 2,2,4:25,Dartmouth,1
+,1,,Set,Halfcourt,Yes,Foul,2,3:45,Dartmouth,1
+,0,0,Set,Halfcourt,,Turnover,0,3:10,Dartmouth,1
+,1,0,Base,Halfcourt,,Blocked shot,0,2:50,Dartmouth,1
+,1,0,Base,Halfcourt,,Contested floater,2,2:45,Dartmouth,1
+,1,,Base,Halfcourt,,Foul,0,2:00,Dartmouth,1
+,1,0,Transition,Transition,,Turnover,0,1:45,Dartmouth,1
+,1,0,Set,Halfcourt,No,Contested layup,2,1:15,Dartmouth,1
+,1,0,Transition,Transition,,Dunk,2,:55,Dartmouth,1
+,0,0,Base,Tranisition,,Turnvoer,0,:28,Dartmouth,1
+
+,0,0,Set,Halfcourt,Yes,Semi-contested 2,2,19:41,Albany,1
+,1,1,Set,Halfcourt,Yes,Open 2,0,19:00,Albany,1
+,2,2,Set,Halfcourt,Yes,Floater,0,18:21,Albany,1
+,1,1,Set,Halfcourt,Yes,Open layup,2,18:03,Albany,1
+,0,0,Set,Halfcourt,No,Turnover,0,17:35,Albany,1
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,3,17:13,Albany,1
+,0,1,Zone,Halfcourt/zone,Yes,Open 3,3,16:38,Albany,1
+,0,0,Set,Halfcourt,No,Contested 3,0,15:58,Albany,1
+,1,0,,Transition,,Contested layup,0,15:32,Albany,1
+,0,0,Set,Halfcourt,No,Foul,3,15:05,Albany,1
+,0,0,Set,Halfcourt,No,Contested 3,3,14:35,Albany,1
+,1,1,Base,Halfcourt,,Semi-contested 3,0,14:04,Albany,1
+,1,1,Set,Halfcourt,Yes,Semi-contested layup,2,13:34,Albany,1
+,2,2,Set,Halfcourt,Yes,Semi-contested 3,0,12:52,Albany,1
+,0,0,Base,Halfcourt,,Open layup,2,12:30,Albany,1
+,1,1,Set,Halfcourt,Yes,Semi-contested 3,3,11:50,Albany,1
+,1,0,,Transition,,Semi-contested layup,0,11:05,Albany,1
+,0,0,Set,Halfcourt,Yes,Semi-contested layup,0,10:20,Albany,1
+,0,0,Set,Halfcourt,No,Semi-contested 3,0,9:40,Albany,1
+,1,1,,Transition,,Open layup,2,9:27,Albany,1
+,1,0,,Transition,,Semi-contested layup,2,8:51,Albany,1
+,0,0,,Transition,,Open 3,3,8:19,Albany,1
+,0,0,Set,Halfcourt,Yes,Semi-contested 2,0,7:45,Albany,1
+,0,0,Base,Halfcourt,,Semi-contested layup,2,7:13,Albany,1
+,1,0,Set,Halfcourt,Yes,Blocked layup,0,6:40,Albany,1
+,0,0,Set,Halfcourt,No,Turnover,0,6:00,Albany,1
+,1,0,Base,Halfcourt,,Semi-contested 3,0,5:15,Albany,1
+,1,0,Set,Halfcourt,,Contested layup,0,4:39,Albany,1
+,0,0,Set,Halfcourt,,Step back 3,3,4:28,Albany,1
+,0,0,Set,Halfcourt,Yes,Contested 2,2,4:00,Albany,1
+,1,1,Set,Halfcourt,,Foul,0,,Albany,1
+,0,0,Set,Halfcourt,No,Turnover,0,2:50,Albany,1
+,1,1,Base,Halfcourt,,Contested layup,0,2:21,Albany,1
+,0,0,Base,OB,,Contested 2,2,2:15,Albany,1
+,1,0,Base,Transition,,Turnover,0,1:45,Albany,1
+,1,0,Transition,Transition,,Foul,2,,Albany,1
+,,,Zone,Halfcourt/zone,,Semi-contested 3,3,:29,Albany,1
+,,,Transition,Transition,,Half court 3,3,0,Albany,1
+
+,1,0,Set,Halfcourt,No,Turnover,0,18:43,Albany,2
+,0,0,Set,Halfcourt,No,Turnover,0,17:55,Albany,2
+,0,0,Set,Halfcourt,No,Turnover,0,15:40,Albany,2
+,0,0,Zone,Halfcourt,,Turnover,0,10:11,Albany,2
+,0,0,Set,Halfcourt,No,Turnover,0,8:13,Albany,2
+,0,0,Base,Halfcourt,,Turnover,0,6:13,Albany,2
+,1,1,Base,Halfcourt,No,Turnover,0,5:45,Albany,2
+,0,0,Base,Halfcourt,,Turnover,0,4:31,Albany,2
+,2,1,Set,Halfcourt,Yes,Semi-contested layup,2,14:20,Albany,2
+,1,0,Transition,Transition,,Semi-contested layup,0,13:45,Albany,2
+,1,1,Base,Halfcourt,,Semi-contested layup,0,12:35,Albany,2
+,1,0,Transition,Transition,,Semi-contested layup,3,10:52,Albany,2
+,2,1,Transition,Transition,,Semi-contested layup,2,9:50,Albany,2
+,1,0,Transition,Transition,,Semi-contested layup,0,1:40,Albany,2
+,1,0,Putback,Putback,,Semi-contested layup,0,1:33,Albany,2
+,1,1,Set,Halfcourt,Yes,Semi-contested 2,2,12:14,Albany,2
+,0,1,Set,Halfcourt,Yes,Open layup,2,17:30,Albany,2
+,1,1,Set,Halfcourt,Yes,Open layup,2,16:25,Albany,2
+,1,0,Putback,Putback,,Open layup,2,13:40,Albany,2
+,0,0,Putback,Putback,,Open layup,2,7:15,Albany,2
+,1,1,Set,Halfcourt,Yes,Open 3,0,16:50,Albany,2
+,1,1,Transition,Transition,,Open 3,3,13:04,Albany,2
+,1,1,Base,Halfcourt,Yes,Open 3,3,11:29,Albany,2
+,1,1,Zone,Halfcourt,Yes,Open 3,0,7:20,Albany,2
+,0,0,Set,Halfcourt,yes,Foul,2,,Albany,2
+,1,0,Set,Halfcourt,Yes,Foul,2,6:35,Albany,2
+,1,0,Base,Halfcourt,,Foul,2,3:20,Albany,2
+,0,0,OB,Halfcourt,,Foul,2,1:47,Albany,2
+,1,1,Zone,Halfcourt,Yes,Dunk,2,5:18,Albany,2
+,1,1,Transition,Transition,,Dunk,2,:56,Albany,2
+,1,0,Transition,Transition,,Contested layup,0,18:20,Albany,2
+,1,0,Base,Halfcourt,No,Contested layup,0,3:43,Albany,2
+,0,0,Base,Halfcourt,No,Contested 3,0,1:51,Albany,2
+,0,0,Set,Halfcourt,No,Contested 2,2,19:30,Albany,2
+,1,0,Base,Halfcourt,No,Contested 2,0,15:00,Albany,2
+,0,0,Base,Halfcourt,No,Contested 2,0,3:56,Albany,2
+,1,0,Base,Halfcourt,,Contested 2,0,3:33,Albany,2
+,0,0,Set,Halfcourt,No,Contested 2,0,2:27,Albany,2
+,0,0,Base,Halfcourt,,Contested 2,0,1:15,Albany,2
+
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,0,19:35,UNH,1
+,1,0,Transition,Transition,,Contested layup,0,19:20,UNH,1
+,1,0,Base,Halfcourt,No,Contested 2,0,19:01,UNH,1
+,0,0,Set,Halfcourt,No,Step back 2,0,18:18,UNH,1
+,1,0,Transition,Transition,No,Semi-contested layup,0,17:55,UNH,1
+,1,1,Set,Halfcourt,No,Semi-contested layup,0,17:04,UNH,1
+,1,0,Base,Halfcourt,No,Contested 3,0,16:48,UNH,1
+,1,0,Transition,Transition,No,Turnover,0,16:31,UNH,1
+,1,1,Set,Halfcourt,Yes,Turnover,0,15:52,UNH,1
+,1,0,Base,Halfcourt,,Semi-contested layup,2,15:18,UNH,1
+,0,0,Set,Halfcourt,No,Contested 3,0,14:36,UNH,1
+,1,0,Base,Halfcourt,No,Semi-contested layup,0,14:10,UNH,1
+,0,0,Set,Halfcourt,No,Turnover,0,13:28,UNH,1
+,1,1,Base,Halfcourt,Yes,Dunk,2,13:10,UNH,1
+,1,1,Transition,Transition,Yes,Open layup,2,12:40,UNH,1
+,1,0,OB,OB,Yes,Semi-contested layup,2,11:56,UNH,1
+,1,0,Set,Halfcourt,No,Contested hook,0,10:59,UNH,1
+,1,0,Base,Halfcourt,No,Turnover,0,10:30,UNH,1
+,1,0,Base,Halfcourt,No,Contested layup,0,9:28,UNH,1
+,0,0,Transition,Transition,No,Pull up 2,0,9:13,UNH,1
+,1,1,Set,Halfcourt,Yes,Semi-contested layup,0,8:22,UNH,1
+,1,0,OB,OB,,Semi-contested layup,2,7:46,UNH,1
+,1,0,Transition,Transition,,Semi-contested layup,2,7:05,UNH,1
+,1,0,Transition,Transition,,Foul,2,6:52,UNH,1
+,1,0,Set,Halfcourt,yes,Semi-contested layup,2,6:24,UNH,1
+,1,1,Transition,Transition,yes,Dunk,2,5:47,UNH,1
+,0,0,OB,OB,,Contested 2,0,5:03,UNH,1
+,0,0,Base,Halfcourt,,Contested 2,0,4:15,UNH,1
+,0,1,Putback,Putback,,Semi-contested 3,0,4:09,UNH,1
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,3:17,UNH,1
+*,0,0,Set,Halfcourt,No,Contested 2,2,2:28,UNH,1
+,1,0,Transition,Transition,,Foul,0,2:05,UNH,1
+,1,0,Set,Halfcourt,no,Fontested 2,0,1:24,UNH,1
+,0,0,OB,OB,no,Fontested 3,0,1:22,UNH,1
+,,,Base,Halfcourt,,Foul,2,:42,UNH,1
+,1,0,Transition,Transition,,Semi-contested 3,3,:13,UNH,1
+,0,0,Transition,Transition,,EOH 3,0,0,UNH,1
+
+*,1,1,Set,Halfcourt,No,Semi-contested 2,2,19:25,UNH,2
+,1,0,Set,Halfcourt,No,Turnover,0,18:45,UNH,2
+,1,0,Base,Halfcourt,No,Turnover,0,18:07,UNH,2
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,17:34,UNH,2
+,1,1,Transition,Transition,,Open 3,3,17:05,UNH,2
+*,0,0,Set,Halfcourt,No,Contested 3,0,16:13,UNH,2
+,1,1,Transition,Transition,,Dunk,2,16:00,UNH,2
+,1,1,Transition,Transition,,Open 3,3,15:35,UNH,2
+,0,0,Set,Halfcourt,Yes,Foul,1,15:00,UNH,2
+,1,0,Transition,Transition,,Foul,2,14:41,UNH,2
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,0,14:20,UNH,2
+,0,0,Set,Halfcourt,Yes,Semi-contested layup,0,13:40,UNH,2
+,1,0,OB,OB,,Semi-contested layup,0,13:03,UNH,2
+,1,0,Putback,Putback,,Semi-contested layup,0,13:03,UNH,2
+,0,1,OB,OB,Yes,Semi-contested 3,3,12:24,UNH,2
+,0,0,Set,Halfcourt,NO,Turnover,0,12:01,UNH,2
+
+,1,0,Set,Halfcourt,No,Contested layup,0,19:00,UMBC,1
+,0,0,Base,Halfcourt,,Semi-contested 3,0,18:55,UMBC,1
+,0,0,Set,Halfcourt,No,Step back 3,0,18:23,UMBC,1
+,0,0,Base,Halfcourt,,Contested 3,3,17:33,UMBC,1
+,0,0,Transition,Transition,Yes,Semi-contested 3,3,17:03,UMBC,1
+,1,2,Set,Halfcourt,Yes,Open lay up,2,16:09,UMBC,1
+*,1,0,Set,Halfcourt,Yes,Semi-contested 3,3,15:24,UMBC,1
+,0,0,Base,Halfcourt,,Semi-contested 2,0,14:47,UMBC,1
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,3,13:59,UMBC,1
+,0,1,Set,Halfcourt,No,Open 3,3,13:05,UMBC,1
+,1,0,Base,Halfcourt,,Semi-contested layup,0,12:25,UMBC,1
+,1,0,Set,Halfcourt,No,Contested layup,0,11:56,UMBC,1
+,0,0,Set,Halfcourt,No,Step back 3,3,11:25,UMBC,1
+,1,1,Base,Halfcourt,Yes,Foul,2,11:00,UMBC,1
+*,1,1,Base,Halfcourt,Yes,Semi-contested layup,2,10:08,UMBC,1
+,0,0,Transition,Transition,No,Turnover,0,9:32,UMBC,1
+,1,0,Set,Halfcourt,Yes,Contested hook,0,9:00,UMBC,1
+,1,0,Set,Halfcourt,Yes,Contested 2,0,7:54,UMBC,1
+,1,0,Transition,Transition,Yes,Foul,1,7:19,UMBC,1
+,1,1,Zone,Halfcourt/zone,Yes,Open 3,0,,UMBC,1
+,1,0,Base,Halfcourt,Yes,Semi-contested 3,0,6:26,UMBC,1
+,0,1,Zone,Halfcourt,Yes,Open 3,0,6:20,UMBC,1
+,1,0,Transition,Transition,No,Contested layup,0,5:56,UMBC,1
+,1,1,Set,Halfcourt,No,Semi-contested 2,2,5:00,UMBC,1
+,1,0,Base,Halfcourt,,Semi-contested layup,2,4:30,UMBC,1
+,1,0,Base,Halfcourt,,Contested 2,2,3:47,UMBC,1
+,1,1,Set,Halfcourt,Yes,Open 3,0,2:57,UMBC,1
+,2,1,Base,Halfcourt,Yes,Semi-contested layup,0,2:21,UMBC,1
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,0,1:47,UMBC,1
+,2,1,Transition,Transition,Yes,Semi-contested layup,2,1:15,UMBC,1
+*,1,0,Set,Halfcourt,Yes,Contested layup,0,:25,UMBC,1
+
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,19:43,UMBC,2
+,1,0,Set,Halfcourt,Yes,Foul,2,18:57,UMBC,2
+,1,0,Base,Halfcourt,No,Turnover,0,18:15,UMBC,2
+,0,1,Set,Halfcourt,No,Semi-contested 3,3,17:27,UMBC,2
+,1,1,Base,Halfcourt,Yes,Semi-contested 3,0,16:58,UMBC,2
+,1,0,Set,Halfcourt,Yes,Contested layup,0,16:30,UMBC,2
+,1,1,Base,Halfcourt,No,Turnover,0,16:24,UMBC,2
+,1,1,Transition,Transition,Yes,Open 3,0,15:31,UMBC,2
+,1,0,OB,OB,Yes,Foul,1,15:00,UMBC,2
+,1,1,Zone,Halfcourt/zone,,Contested layup,0,13:56,UMBC,2
+,0,0,Transition,Transition,,Semi-contested 3,0,13:42,UMBC,2
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,2,13:34,UMBC,2
+,0,1,Zone,Halfcourt/zone,yes,Semi-contested 3,3,12:53,UMBC,2
+,0,1,Zone,Halfcourt/zone,Yes,Semi-contested 3,3,12:06,UMBC,2
+,1,0,Base,Halfcourt,No,Contested layup,0,11:40,UMBC,2
+*,1,1,Set,Halfcourt,Yes,Open 3,0,11:07,UMBC,2
+,1,1,Set,Halfcourt,Yes,Open 3,3,10:31,UMBC,2
+,0,0,OB,OB,Yes,Semi-contested 3,0,9:38,UMBC,2
+,1,1,Transition,Transition,Yes,Open 3,3,9:01,UMBC,2
+,0,0,Transition,Transition,No,Contested layup,0,8:35,UMBC,2
+,0,1,Putback,Putback,No,Turnover,0,8:22,UMBC,2
+,1,1,Set,Halfcourt,Yes,Open layup,2,8:08,UMBC,2
+,1,0,Set,Halfcourt,No,Turnover,0,7:34,UMBC,2
+,0,1,Base,Halfcourt,Yes,Semi-contested 3,0,7:04,UMBC,2
+,1,0,Set,Halfcourt,No,Turnover,0,6:21,UMBC,2
+,0,0,Set,Halfcourt,No,Contested 2,0,5:33,UMBC,2
+,,,Transition ,Transition,Yes,Foul,1,5:01,UMBC,2
+,1,0,Set,Halfcourt,No,Contested layup,0,4:25,UMBC,2
+,0,1,Set,Halfcourt,No,Open 3,0,3:47,UMBC,2
+,1,0,Base,Halfcourt,Yes,Foul,2,3:07,UMBC,2
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,2,2:10,UMBC,2
+,1,1,Transition,Transition,Yes,Open 3,3,1:37,UMBC,2
+,0,1,Set,Halfcourt,Yes,Open 3,0,:46,UMBC,2
+,0,0,Set,Halfcourt,Yes,Semi-contested 2,0,:4,UMBC,2
+
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,19:30,Stony Brook,1
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,0,18:47,Stony Brook,1
+,0,0,Set,Halfcourt,No,Contested 2,0,17:51,Stony Brook,1
+,0,1,Putback,Putback,Yes,Open 3,3,17:46,Stony Brook,1
+,1,2,Set,Halfcourt,Yes,Open 3,0,17:01,Stony Brook,1
+,0,0,Set,Halfcourt,No,Turnover,0,16:21,Stony Brook,1
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,15:49,Stony Brook,1
+,1,1,Set,Halfcourt,Yes,Open layup,2,15:19,Stony Brook,1
+,1,0,transition,Transition,Yes,Semi-contested layup,2,14:17,Stony Brook,1
+,1,0,transition,Transition,No,Turnover,0,13:53,Stony Brook,1
+,0,1,set,Halfcourt,Yes,Semi-contested 3,0,13:16,Stony Brook,1
+,1,1,set,Halfcourt,Yes,Foul,1,12:43,Stony Brook,1
+,1,0,Base,Halfcourt,No,Contested hook,0,12:15,Stony Brook,1
+,1,1,Putback,Putback,Yes,Open layup,2,12:07,Stony Brook,1
+,1,1,Transition,Transition,Yes,Open 3,0,11:25,Stony Brook,1
+,1,0,Base,Halfcourt,Yes,Semi-contested floater,0,11:04,Stony Brook,1
+,1,1,Transition,Transition,No,Turnover,0,10:33,Stony Brook,1
+,1,1,Base,Halfcourt,Yes,Semi-contested 3,3,10:05,Stony Brook,1
+,0,0,Set,Halfcourt,No,Semi-contested 3,3,9:29,Stony Brook,1
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,0,8:55,Stony Brook,1
+*,0,0,Set,Halfcourt,No,Contested 3,0,8:11,Stony Brook,1
+,1,1,Base,Halfcourt,Yes,Open layup,2,7:40,Stony Brook,1
+,0,1,Set,Halfcourt,No,Contested 3,0,6:58,Stony Brook,1
+,0,0,Set,Halfcourt,No,Turnover,0,6:49,Stony Brook,1
+,1,0,Set,Halfcourt,No,Turnover,0,6:21,Stony Brook,1
+,1,1,Set,Halfcourt,Yes,Semi-contested 2,2,5:57,Stony Brook,1
+,0,1,Transition,Transition,Yes,Open 3,0,5:26,Stony Brook,1
+,1,1,Set,Halfcourt,Yes,Dunk,2,5:13,Stony Brook,1
+,0,0,Base,Halfcourt,No,Contested 3,0,4:27,Stony Brook,1
+,0,0,Set,Halfcourt,No,Semi-contested 3,0,3:46,Stony Brook,1
+,1,0,Transition,Transition,No,Turnover,0,3:16,Stony Brook,1
+,1,0,Base,Halfcourt,No,Turnover,0,2:52,Stony Brook,1
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,3,2:25,Stony Brook,1
+*,1,1,Set,Halfcourt,No,Turnover,0,1:49,Stony Brook,1
+,1,1,Transition,Transition,No,Turnover,0,1:19,Stony Brook,1
+,1,0,Transition/base,Halfcourt,No,Semi-contested layup,0,:49,Stony Brook,1
+,0,0,Set,Halfcourt,No,Contested 2,0,:2,Stony Brook,1
+
+,1,0,Set,Halfcourt,Yes,Floater,0,19:45,Stony Brook,2
+,1,1,Base,Halfcourt,Yes,Semi-contested 3,0,18:53,Stony Brook,2
+,0,0,Base,Halfcourt,Yes,Semi-contested 3,0,18:11,Stony Brook,2
+,1,1,Set,Halfcourt,Yes,Turnover,0,17:39,Stony Brook,2
+,1,1,Set,Halfcourt,Yes,Open 3,0,16:52,Stony Brook,2
+,1,0,Transition,Transition,No,Turnover,0,16:39,Stony Brook,2
+,1,1,Set,Halfcourt,Yes,Semi-contested layup,2,15:40,Stony Brook,2
+,0,0,Set,Halfcourt,No,Contested 3,0,15:01,Stony Brook,2
+,1,0,OB/base,Halfcourt,No,Contested floater,0,14:22,Stony Brook,2
+**,0,1,Set,Halfcourt,Yes,Open 3,0,13:55,Stony Brook,2
+,0,1,Putback,Putback,yes,Open 3,0,13:47,Stony Brook,2
+,1,0,Set,Halfcourt,No,Turnover,0,13:11,Stony Brook,2
+,0,0,Set,Halfcourt,No,Contested 3,0,12:49,Stony Brook,2
+,1,1,Transition,Transition,Yes,Open 3,3,12:30,Stony Brook,2
+,1,0,Set,Halfcourt,Yes,Contested 2,0,11:56,Stony Brook,2
+,1,0,Putback,Putback,,Foul,1,11:52,Stony Brook,2
+**,1,1,Set,Halfcourt,Yes,Semi-contested 3,0,11:05,Stony Brook,2
+,1,0,Putback,Putback,Yes,Semi-contested layup,2,11:03,Stony Brook,2
+**,1,1,Set,Halfcourt,Yes,Semi-contested 3,0,10:25,Stony Brook,2
+,1,1,Transition,Transition,Yes,Semi-contested layup,2,9:46,Stony Brook,2
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,0,8:57,Stony Brook,2
+,1,0,Base,Halfcourt,No,Turnover,0,8:37,Stony Brook,2
+,1,0,Set,Halfcourt,Yes,Floater,2,8:02,Stony Brook,2
+,1,1,Transition,Transition,Yes,Open layup,2,7:31,Stony Brook,2
+,1,0,Set,Halfcourt,No,Contested layup,0,6:47,Stony Brook,2
+,0,1,Base,Halfcourt,Yes,Semi-contested 3,0,6:16,Stony Brook,2
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,2,6:10,Stony Brook,2
+,1,0,Base,Halfcourt,No,Turnover,0,5:48,Stony Brook,2
+**,1,1,Set,Halfcourt,Yes,Open 3,0,5:06,Stony Brook,2
+,0,0,Set,Halfcourt,Yes,Semi-contested 3,3,4:14,Stony Brook,2
+,1,1,Set,Halfcourt,Yes,Open 3,3,3:40,Stony Brook,2
+,1,0,Set,Halfcourt,No,Contested layup,0,3:07,Stony Brook,2
+,0,0,OB,OB,,Semi-contested 3,0,3:03,Stony Brook,2
+,0,0,Set,Halfcourt,Yes,Semi-contested 3,3,2:38,Stony Brook,2
+,0,0,Base,Halfcourt,Yes,Semi-contested 3,3,1:49,Stony Brook,2
+,1,1,Transition,Transition,Yes,Open layup,2,:53,Stony Brook,2
+
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,3,19:10,Hartford,1
+,1,0,Transition,Transition,Yes,Semi-contested layup,0,18:43,Hartford,1
+*,1,1,Set,Halfcourt,Yes,Open 3,0,18:04,Hartford,1
+,2,0,OB,OB,Yes,foul,0,17:58,Hartford,1
+,1,0,Set,Halfcourt,Yes,Semi-contested 3,0,17:28,Hartford,1
+,1,1,Set,Halfcourt,Yes,Semi-contested 3,0,17:06,Hartford,1
+,1,0,Set,Halfcourt,Yes,Foul,1,16:37,Hartford,1
+,1,1,Set,Halfcourt,No,Semi-contested 3,3,15:48,Hartford,1
+,1,1,Transition,Transition,Yes,Open layup,2,15:10,Hartford,1
+,1,0,Transition,Transition,Yes,Semi-contested layup,0,14:35,Hartford,1
+,1,0,OB,OB,Yes,Contested 2,0,14:30,Hartford,1
+,0,0,OB,OB,No,Contested 3,0,13:35,Hartford,1
+,2,0,Set,Halfcourt,No,Turnover,0,13:04,Hartford,1
+,0,0,Set,Halfcourt,No,Turnover,0,12:12,Hartford,1
+*,1,0,Base,Halfcourt,No,Semi-contested 2,0,11:50,Hartford,1
+,1,0,Base,Halfcourt,No,Contested layup,0,10:55,Hartford,1
+,0,0,OB,OB,No,Contested 3,0,10:50,Hartford,1
+,0,0,Zone,Halfcourt/zone,No,Turnover,0,10:16,Hartford,1
+,1,1,Zone,Halfcourt/zone,Yes,Semi-contested 3,3,8:52,Hartford,1
+,0,0,Base,Halfcourt,No,Contested 2,2,8:06,Hartford,1
+,0,0,Base,Halfcourt,No,Contested 2,2,7:31,Hartford,1
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,2,6:42,Hartford,1
+,1,1,Transition,Transition,Yes,Open 3,3,6:07,Hartford,1
+,0,0,Set,Halfcourt,No,Contested 2,0,5:25,Hartford,1
+,1,0,Set,Halfcourt,No,Turnover,0,4:45,Hartford,1
+,0,0,Transition,Transition,No,Contested 3,0,4:26,Hartford,1
+,2,2,Set,Halfcourt,Yes,Open layup,2,3:44,Hartford,1
+,1,0,Set,Halfcourt,Yes,Foul,0,3:14,Hartford,1
+,1,1,Set,Halfcourt,Yes,Semi-contested 3,0,2:40,Hartford,1
+,1,1,Putback,Putback,Yes,Semi-contested layup,2,2:31,Hartford,1
+,0,0,Set,Halfcourt,No,Contested 3,3,1:37,Hartford,1
+,1,0,Base,Halfcourt,No,Contested 3,0,:56,Hartford,1
+,1,1,Set,Halfcourt,Yes,Open 3,0,:14,Hartford,1
+
+,1,0,Set,Halfcourt,No,Semi-contested layup,0,19:30,Hartford,2
+,1,0,Putback,Putback,No,Semi-contested layup,0,19:30,Hartford,2
+,1,0,Putback,Putback,Yes,Semi-contested layup,2,19:30,Hartford,2
+,0,0,Set,Halfcourt,Yes,Contested 2,0,18:47,Hartford,2
+,0,1,Set,Halfcourt,Yes,Semi-contested 3,0,18:26,Hartford,2
+,1,0,Putback,Putback,Yes,foul,2,18:22,Hartford,2
+,1,1,Zone,Halfcourt/zone,Yes,Semi-contested layup,2,17:28,Hartford,2
+,0,1,Zone,Halfcourt/zone,Yes,Open 3,3,16:37,Hartford,2
+,1,0,Base,Halfcourt,yes,Semi-contested layup,0,15:53,Hartford,2
+,0,1,Base,Halfcourt,Yes,Semi-contested 3,3,15:48,Hartford,2
+,1,2,Set,Halfcourt,Yes,Open 3,3,14:58,Hartford,2
+,1,0,Transition,Transition,Yes,Open layup,2,14:24,Hartford,2
+,2,1,Set,Halfcourt,Yes,Turnover,0,13:43,Hartford,2
+,1,0,Set,Halfcourt,Yes,Semi-contested layup,0,13:08,Hartford,2
+*,1,0,Set,Halfcourt,Yes,Open layup,2,12:46,Hartford,2
+*,1,1,Set,Halfcourt,No,Contested 3,0,12:16,Hartford,2
+,0,1,Transition,Transition,Yes,Open 3,3,11:19,Hartford,2
+,1,1,Zone,Halfcourt/zone,Yes,Semi-contested 3,0,10:21,Hartford,2
+,1,0,Zone,Halfcourt/zone,No,Turnover,0,9:49,Hartford,2
+,0,0,Zone,Halfcourt/zone,Yes,Semi-contested 3,3,9:17,Hartford,2
+,0,0,Base,Halfcourt,No,Turnover,0,8:48,Hartford,2
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,2,8:21,Hartford,2
+,1,1,Base,Halfcourt,Yes,Foul,1,7:41,Hartford,2
+,1,1,Set,Halfcourt,Yes,Semi-contested 3,0,7:00,Hartford,2
+,1,0,Base,Halfcourt,Yes,Foul,2,6:30,Hartford,2
+,0,0,Set,Halfcourt,Yes,Contested 2,2,5:41,Hartford,2
+,0,0,Set,Halfcourt,Yes,Foul,2,4:50,Hartford,2
+,1,0,Base,Halfcourt,Yes,Foul,2,4:05,Hartford,2
+,1,0,Set,Halfcourt,No,Turnover,0,3:27,Hartford,2
+,1,0,Base,Halfcourt,Yes,Semi-contested layup,3,3:07,Hartford,2
+,1,0,Set,Halfcourt,No,Turnover,0,2:15,Hartford,2
+,1,0,Base,Halfcourt,Yes,Foul,1,1:32,Hartford,2
+,0,0,Zone,Halfcourt/zone,No,Turnover,0,:55,Hartford,2
+,0,0,Zone,Halfcourt/zone,No,Contested 3,0,:25,Hartford,2
+,0,1,OB,Halfcourt/OB,Yes,Semi-contested layup,0,:02,Hartford,2
