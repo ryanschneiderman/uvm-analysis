@@ -4,6 +4,7 @@
 
 div#layout {
   text-align: center;
+  display:  none;
 }
 
 .bar-chart {
