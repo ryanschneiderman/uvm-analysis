@@ -1,13 +1,100 @@
 #main{
-	display: flex
+	display: grid;
+	grid-template-columns: 1fr 6fr;
 }
 
 #nav-bar{
 	display: flex;
 	flex-direction: column;
-	border: 1px solid black;
+	position: fixed;
+	margin-top: 75px;
+	margin-left: 20px;
+}
+
+#nav-bar-wrapper{
+	position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#page-title{
+	text-align: center;
+}
+
+.section-description{
+	width: 85%;
+	margin: auto;
+	font-style: italic;
 }
 
 #content{
-	border: 1px solid black;
+	margin-left: 10px;
+}
+
+.main-grid-item{
+	float: left;
+}
+
+.header1{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.header2{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.header3{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.film-analysis-header{
+	text-align: center;
+}
+
+.film-analysis-module{
+
+}
+.film-analysis-video{
+	float: left;
+}
+
+.film-analysis-text{
+	float: left;
+}
+
+.header4{
+	font-size: 17px;
+}
+
+
+.link1{
+	font-size: 13px;
+}
+
+
+.link2{
+	font-size: 11px;
+}
+
+#sublink-wrapper{
+	margin-left: 15px;
+}
+
+
+.navbar-link{
+	margin: 5px;
+}
+
+.navbar-sublink{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
