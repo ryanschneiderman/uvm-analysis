@@ -2,6 +2,7 @@ function initialize_chart(data, container){
 
     const svg = d3.select(container).select('svg');
     const svgContainer = d3.select(container);
+    console.log(svg)
     
     const margin = 80;
     const width = 1000 - 2 * margin;
