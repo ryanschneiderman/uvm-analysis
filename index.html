@@ -41,6 +41,18 @@
 								In this section I look at the data collected from each possession and discuss the meaning behind it.
 							</div>
 						<div class = "section-content">
+							<div id='layout'>
+							    <!-- <h2>Bar chart example</h2> -->
+							    <div id='possession-type-chart' class = "bar-chart">
+							      <svg />
+							    </div>
+							    <div id='possession-result-chart' class = "bar-chart">
+							      <svg />
+							    </div>
+							    <div id='play-type-chart' class = "bar-chart">
+							      <svg />
+							    </div>
+							</div>
 						</div>
 					</div>
 					<div class = "section" id = "film-analysis">
@@ -601,19 +613,6 @@
 			</div>
 		</div>
 
-		<div id='layout'>
-		    <!-- <h2>Bar chart example</h2> -->
-		    <div id='possession-type-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		    <div id='possession-result-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		    <div id='play-type-chart' class = "bar-chart">
-		      <svg />
-		    </div>
-		  </div>
-
 		<script>
 		// vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 		// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -626,7 +625,7 @@
 
 
 			var possessions = TAFFY([]);
-			//insert_data()
+			insert_data()
 			
 
 			function insert_data(){
