@@ -1,29 +1,29 @@
 function initialize_chart(data, container){
-    console.log("in initialize_chart")
-    const svg = d3.select(container).select('svg');
-    const svgContainer = d3.select(container);
-    console.log(svg)
+
+    var svg = d3.select(container).select('svg');
+    var svgContainer = d3.select(container);
+
     
-    const margin = 80;
-    const width = 1000 - 2 * margin;
-    const height = 600 - 2 * margin;
+    var margin = 80;
+    var width = 1000 - 2 * margin;
+    var height = 600 - 2 * margin;
 
 
-    const chart = svg.append('g')
+    var chart = svg.append('g')
       .attr('transform', `translate(${margin}, ${margin})`);
 
-    const xScale = d3.scaleBand()
+    var xScale = d3.scaleBand()
       .range([0, width])
       .domain(data.map((s) => s.type))
       .padding(0.4)
 
-    const xFooter = d3.scaleBand()
+    var xFooter = d3.scaleBand()
       .range([0, width])
       .domain(data.map((s) => s.type ))
       .padding(0.4)
 
     
-    const yScale = d3.scaleLinear()
+    var yScale = d3.scaleLinear()
       .range([height, 0])
       .domain([0, 2]);
 
@@ -57,7 +57,7 @@ function initialize_chart(data, container){
         .tickFormat('')
       )
 
-    const barGroups = chart.selectAll()
+    var barGroups = chart.selectAll()
       .data(data)
       .enter()
       .append('g')
