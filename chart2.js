@@ -1,5 +1,5 @@
 function initialize_chart(data, container){
-
+    console.log("in initialize_chart")
     const svg = d3.select(container).select('svg');
     const svgContainer = d3.select(container);
     console.log(svg)
