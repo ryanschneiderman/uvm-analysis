@@ -1,29 +1,28 @@
 function initialize_chart(data, container){
 
-    var svg = d3.select(container).select('svg');
-    var svgContainer = d3.select(container);
-
+    const svg = d3.select(container).select('svg');
+    const svgContainer = d3.select(container);
     
-    var margin = 80;
-    var width = 1000 - 2 * margin;
-    var height = 600 - 2 * margin;
+    const margin = 80;
+    const width = 1000 - 2 * margin;
+    const height = 600 - 2 * margin;
 
 
-    var chart = svg.append('g')
+    const chart = svg.append('g')
       .attr('transform', `translate(${margin}, ${margin})`);
 
-    var xScale = d3.scaleBand()
+    const xScale = d3.scaleBand()
       .range([0, width])
       .domain(data.map((s) => s.type))
       .padding(0.4)
 
-    var xFooter = d3.scaleBand()
+    const xFooter = d3.scaleBand()
       .range([0, width])
       .domain(data.map((s) => s.type ))
       .padding(0.4)
 
     
-    var yScale = d3.scaleLinear()
+    const yScale = d3.scaleLinear()
       .range([height, 0])
       .domain([0, 2]);
 
@@ -57,7 +56,7 @@ function initialize_chart(data, container){
         .tickFormat('')
       )
 
-    var barGroups = chart.selectAll()
+    const barGroups = chart.selectAll()
       .data(data)
       .enter()
       .append('g')
