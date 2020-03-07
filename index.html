@@ -629,7 +629,7 @@
 			
 
 			function insert_data(){
-				console.log("test")
+				console.log("test");
 				d3.csv("/uvm-analysis/data/possessions2.csv").then(function(data) {
 					data.forEach(function(d) {
 					    d.Points = +d.Points;
@@ -659,10 +659,6 @@
 
 				var data = [halfcourt_obj, transition_obj, putback_obj]
 				initialize_chart(data, "#possession-type-chart")
-
-				//console.log("points per halfcourt possession: " + halfcourt_points/halfcourt_count)
-				//console.log("points per transition possession: " + transition_points/transition_count)
-				//console.log("points per putback possession: " + putback_points/putback_count)
 			}
 
 			function get_shot_type_object(shot_type){
