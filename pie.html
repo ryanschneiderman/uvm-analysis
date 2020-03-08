@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  
+<style>
+  #chart-area svg {
+    margin:auto;
+    display:inherit;
+  }
+  text {
+    font: 10px sans-serif;
+  }
+  form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+</style>
+  
+</head>
+<body>
+    <div id="chart-area">     
+    </div>
+
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script src="taffy-min.js"></script>
+
+<!-- Our JS code -->
+<script>
+
+    var possessions = TAFFY([]);
+    insert_data();
+
+
+
+    function insert_data(){
+        console.log("test");
+        d3.csv("/data/possessions2.csv").then(function(data) {
+            data.forEach(function(d) {
+                d.Points = +d.Points;
+                possessions.insert(d)
+                //console.log(d)
+              });
+            insert_pie_chart("Halfcourt")
+        });
+    }
+
+    function get_shot_type_object(shot_type, possession_type){
+        var poss = possessions({Shot_type: shot_type, Flow: possession_type})
+        var count = poss.count()
+        return {type: shot_type, count: count}
+    }
+
+    function insert_pie_chart(possession_type){
+        var scl = get_shot_type_object("Semi-contested layup", possession_type)
+        var cl = get_shot_type_object("Contested layup", possession_type)
+        var ol = get_shot_type_object("Open layup", possession_type)
+        var sc3 = get_shot_type_object("Semi-contested 3", possession_type)
+        var c3 = get_shot_type_object("Contested 3", possession_type)
+        var o3 = get_shot_type_object("Open 3", possession_type)
+        var c2 = get_shot_type_object("Contested 2", possession_type)
+        var sc2 = get_shot_type_object("Semi-contested 2", possession_type)
+        var fl = get_shot_type_object("Floater", possession_type)
+        var data = [ol, o3, scl, sc3, sc2, cl, c3, c2, fl, ];
+        create_pie_chart(data)
+    }
+
+    function create_pie_chart(data){
+    const width = 350;
+    const height = 350;
+    const radius = Math.min(width, height) / 2;
+
+    const svg = d3.select("#chart-area")
+        .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+        .append("g")
+            .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+    const color = d3.scaleOrdinal(["#66c2a5","#fc8d62","#8da0cb",
+         "#e78ac3","#a6d854","#ffd92f"]);
+
+    const pie = d3.pie()
+        .value(d => d.count)
+        .sort(null);
+
+    const arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+    function arcTween(a) {
+        const i = d3.interpolate(this._current, a);
+        this._current = i(1);
+        return (t) => arc(i(t));
+    }
+  
+    // Join new data
+    const path = svg.selectAll("path")
+        .data(pie(data));
+
+    // Update existing arcs
+    path.transition().duration(200).attrTween("d", arcTween);
+
+    // Enter new arcs
+    path.enter()
+        .append("path")
+        .attr("fill", (d, i) => color(i))
+        .attr("d", arc)
+        .attr("stroke", "white")
+        .attr("stroke-width", "2px")
+        .each(function(d) { this._current = d; })
+
+    path.enter()
+        .append("text")
+        .attr("x", function(d) {
+        var a = d.startAngle + (d.endAngle - d.startAngle)/2 - Math.PI/2;
+        d.cx = Math.cos(a) * (radius - 45);
+        return d.x = Math.cos(a) * (radius-45);
+    })
+    .attr("y", function(d) {
+        var a = d.startAngle + (d.endAngle - d.startAngle)/2 - Math.PI/2;
+        d.cy = Math.sin(a) * (radius - 45);
+        return d.y = Math.sin(a) * (radius-45);
+    })
+        .attr("text-anchor", "middle")
+        .text( function(d, i) {
+            //console.log(data[i].type)
+          return data[i].type;}
+        )
+
+    }
+
+    
+
+</script>
+</body>
