@@ -1,12 +1,14 @@
-function initialize_chart(data, container){
+function initialize_chart(data, container, label){
 
     const svg = d3.select(container).select('svg');
     const svgContainer = d3.select(container);
-    
+    var screen_width = window.innerWidth * 2 / 3;
     const margin = 80;
-    const width = 1000 - 2 * margin;
-    const height = 600 - 2 * margin;
+    const width = screen_width - 2 * margin;
+    const height = screen_width * .6 - 2 * margin;
 
+    console.log(width)
+    console.log("screen_width: " + screen_width)
 
     const chart = svg.append('g')
       .attr('transform', `translate(${margin}, ${margin})`);
@@ -127,7 +129,7 @@ function initialize_chart(data, container){
       .append('text')
       .attr('class', 'value')
       .attr('x', (a) => xScale(a.type) + xScale.bandwidth() / 2)
-      .attr('y', (a) => yScale(a.value) + 30)
+      .attr('y', (a) => yScale(a.value) + 15)
       .attr('text-anchor', 'middle')
       .text((a) => `${a.value}`)
     
@@ -138,21 +140,25 @@ function initialize_chart(data, container){
       .attr('y', margin / 2.4)
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
-      .text('Points per possession')
+      .style("font-size", "17px")
+      .style("font-style", "italic")
+      .text(label.y)
 
     svg.append('text')
       .attr('class', 'label')
       .attr('x', width / 2 + margin)
-      .attr('y', height + margin * 1.7)
+      .attr('y', height + 15 + margin * 1.7)
       .attr('text-anchor', 'middle')
-      .text('Possession Type')
+      .style("font-size", "17px")
+      .style("font-style", "italic")
+      .text(label.x)
 
     svg.append('text')
       .attr('class', 'title')
       .attr('x', width / 2 + margin)
       .attr('y', 40)
       .attr('text-anchor', 'middle')
-      .text('Points Per Possession for Possession Types')
+      .text(label.header)
 
 
 }

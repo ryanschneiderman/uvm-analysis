@@ -6,22 +6,36 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		 <link rel="stylesheet" href="chart.css">
 		 <link rel="stylesheet" href="main.css">
+		 <style>
+  .pie-chart svg {
+    margin:auto;
+    display:inherit;
+  }
+  text {
+    font: 10px sans-serif;
+  }
+  form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+</style>
 	</head>
 	<body>
 		<div id = "main">
 			<div id = "nav-bar-wrapper" class = "main-grid-item">
 				<div id = "nav-bar">
-					<div class = "navbar-link" id = "summary-link"><div class = "navbar-link-title link1"><a href = "#summary" >SUMMARY</a></div></div>
-					<div class = "navbar-link" id = "data-analysis-link"><div class = "navbar-link-title link1"><a href = "#data-analysis">DATA</a></div></div>
+					<div class = "navbar-link" id = "summary-link"><div class = "navbar-link-title link1"><a class = "no-link-style"href = "#summary" >SUMMARY</a></div></div>
+					<div class = "navbar-link" id = "data-analysis-link"><div class = "navbar-link-title link1"><a class = "no-link-style" href = "#data-analysis">DATA</a></div></div>
 					<div class = "navbar-link" id = "film-analysis-link">
-						<div class = "navbar-link-title link1"><a href = "#film-analysis">FILM ANALYSIS</a></div>
+						<div class = "navbar-link-title link1"><a class = "no-link-style" href = "#film-analysis">FILM ANALYSIS</a></div>
 						<div id = "sublink-wrapper">
-							<div class = "navbar-sublink link2"><a href = "#lamb-analysis">LAMB GRAVITY</a></div>
-							<div class = "navbar-sublink link2"><a href = "#basket-cuts-analysis">BASKET CUTS</a></div>
-							<div class = "navbar-sublink link2"><a href = "#bigs-perimeter">BIGS ON PERIMETER</a></div>
-							<div class = "navbar-sublink link2"><a href = "#pick-roll">PICK AND ROLL</a></div>
-							<div class = "navbar-sublink link2"><a href = "#post-seals">POST SEALS</a></div>
-							<div class = "navbar-sublink link2"><a href = "#screen-reads">SCREENS</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#lamb-analysis">LAMB GRAVITY</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#basket-cuts-analysis">BASKET CUTS</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#bigs-perimeter">BIGS ON PERIMETER</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#pick-roll">PICK AND ROLL</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#post-seals">POST SEALS</a></div>
+							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#screen-reads">SCREENS</a></div>
 						</div>
 						
 					</div>
@@ -33,33 +47,56 @@
 					<div class = "section" id = "summary">
 						<div class = "section-header header2">Summary</div>
 						<div class = "section-description" >
-							In the following analysis, I dive deep into at the UVM men's basketball team's offense. Using every possession from 5 games -- Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H) -- I conduct a data analysis breaking down the points per possession for situational offense (halfcourt vs. transition vs. putbacks), kinds of halfcourt possession (set offense vs. base offense), and shot type (Contested 3, Semi contested layups, open 2, etc.). In a video analysis, I pinpoint particular key areas of offense and ways to boost efficiency in these areas. The key areas are maximizing Anthony Lamb's Gravity on the court, situational basket cuts, bigs as offensive catalysts, optimizing pick and roll, post seals to create penetration lanes, and reads regarding screens. Finally, I discuss more abstract concepts of offense and a global philosophy. 
+							In the following analysis, I dive deep into at the UVM men's basketball team's offense. Using every possessions from 5 games -- Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H) -- I conduct a data analysis breaking down the points per possession for situational offense (halfcourt vs. transition vs. putbacks), kinds of halfcourt possession (set offense vs. base offense), and shot type (Contested 3, Semi contested layups, open 2, etc.). In a video analysis, I pinpoint particular key areas of offense and ways to boost efficiency in these areas. The key areas are maximizing Anthony Lamb's Gravity on the court, situational basket cuts, bigs as offensive catalysts, optimizing pick and roll, post seals to create penetration lanes, and reads regarding screens. Finally, I discuss more abstract concepts of offense and a global philosophy. 
 						</div>
 					</div>
 					<div class = "section" id = "data-analysis">
 						<div class = "section-header header2">Data Analysis</div>
-						<div class = "section-description">
-								In this section I look at the data collected from each possession and discuss the meaning behind it.
-							</div>
+						<div class = "section-text">
+								The following graph shows the points per possession for different types of possessions. The most efficient possessions were in transition, followed by putbacks and then halfcourt. This is close to what we would expect - putbacks and transition should be more efficient than halfcourt offense. The question is, should we expect a gap in efficiency this large? 
+						</div>
 						<div class = "section-content">
 							<div id='layout'>
 							    <!-- <h2>Bar chart example</h2> -->
 							    <div id='possession-type-chart' class = "bar-chart">
 							      <svg />
 							    </div>
+							    <div class = "section-text">
+							    	Let's take a look at the difference is shot selection in the half court vs transition. We can see the kinds of shots that the offense gets in transition are in general better than the shots the offense gets in the halfcourt. Transition results in a higher percentage of open 3's and open layups, but has a higher rate in contested and semi-contested layups. Transition also has a much lower percentage of contested 3's, and I counted zero contested and semi contested 2's as well as floaters -  all inefficient shots. All in all, it makes a lot sense that transition would result in a higher expected point total. There is more space, the defense is less set, there is the potential for man advantages. But the question remains, how can we create more transition like opportunities in the halfcourt? Specifically, how can we create more open 3's and open layups?
+								</div>
+							    
 							    <div id='possession-result-chart' class = "bar-chart">
 							      <svg />
 							    </div>
+							     <div id = "possession-pie-charts" class = "pie-charts">
+							    	<div class = "pie-chart-wrapper">
+							    		<div id = "pie-chart-1" class = "pie-chart"></div>
+							    	</div>
+							   		<div class = "pie-chart-wrapper">
+							    		<div id = "pie-chart-2" class = "pie-chart"></div>
+							    	</div>
+							    </div>
+
+							     <div class = "section-text">
+							    	The best way to create these kinds of opportunity is with smart offense. Good set plays combined with a knowledge of opposing defenses should create good scoring opportunities in the half court. Let's take a look at the points per possession of set plays, base offense, and zone offense. From the film I watched, I am not suprised to see zone offense as the most efficient. The soft 3-2 zones a number of the teams run have gaps all over the floor and don't make it particularly difficult on opposing offenses. The number of zone possessions (19) was far lower than set (160) and base (93), probably in part because UVM was very efficient against zone. Set plays came with a higher points per possession than base offense, and this is also to be expected. The question is, can both set and base offense be made more efficient? Can the offense get the same kinds of shots in the halfcourt as it does against zone and in transition?
+								</div>
 							    <div id='play-type-chart' class = "bar-chart">
 							      <svg />
 							    </div>
 							</div>
+							<div class = "section-text">
+								This is a difficult question to answer without in depth data on college offenses throughout the country, but one mode of comparison is the NBA. The NBA isn't a perfect comparison, so I will first discuss some of the problems between comparing the NBA and college. The first is the rules. Due to the franchise setup of the NBA, the discrepency in teams is not as high from top to bottom than in college. The better college programs can attract better talent, the better NBA teams get worse draft picks. The defensive three second rule in the NBA makes it much more difficult for NBA teams to contain opposing offenses. Another are of difference is the skill level of the players. There is an argument to be made that the gap in offensive skill and defensive skill in the NBA is larger than college. The consistency of defensive effort is certainly lower in the NBA. The sum of these differences would suggest that NBA teams woud be more efficient in the halfcourt than college teams. As it turns out, that is the case. <a href = 'https://cleaningtheglass.com/stats/league/context#tab-offense_halfcourt_putbacks'>The median points per possession in the halfcourt in the NBA is .95</a> - a signifcantly higher number.
+
+								There is one difference between the NBA and college that I deliberately haven't mentioned, and it is the most crucial in the context of this analysis. NBA players make better offensive decisions. They are more experienced, and better trained. They recognize patterns in defenses better. They can make more precise reads. These are all things that come with time, but decision making ability can be accelerated by good coaching. I propose that the greatest room for improvement in the UVM offense is decision making. With that being said let's take a look at some film
+							</div>
 						</div>
 					</div>
+
 					<div class = "section" id = "film-analysis">
 						<div class = "section-header header2">Film Analysis</div>
 						<div class = "section-description">
-							</div>
+							For the following film analysis, I looked at every possession from 5 games: Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H). My goal was to find ways for the offense to be more efficient, particularly in high usage areas of the offense. I came to the conclusion that the six most important areas for increased efficiency were taking advantage of Anthony Lamb's court gravity, increasing situational basket cuts, using bigs along the perimeter, decision making in the pick and roll, using penetration lanes created by post seals, and improving reads regarding screens.
+						</div>
 						<div class = "section-content" >
 							<div class = "header3 film-analysis-header" id ="lamb-analysis">Maximizing Lamb's Court Gravity</div>
 							<div class = "film-analysis-section">
@@ -626,21 +663,24 @@
 
 
 			var possessions = TAFFY([]);
-			insert_data();
+			$(document).ready(function(){
+				insert_data();
+			})
+			
 			
 			
 
 			function insert_data(){
-				console.log("test");
-				d3.csv("/uvm-analysis/data/possessions2.csv").then(function(data) {
+				d3.csv("data/possessions2.csv").then(function(data) {
 					data.forEach(function(d) {
 					    d.Points = +d.Points;
 					    possessions.insert(d)
-					    //console.log(d)
 					  });
 					insert_flow_chart()
 					insert_shot_type_chart()
 					insert_play_type_chart()
+					insert_pie_chart("Halfcourt", "#pie-chart-1")
+					insert_pie_chart("Transition", "#pie-chart-2")
 				});
 			}
 
@@ -649,8 +689,7 @@
 				var points = poss.sum("Points")
 				var count = poss.count()
 				var val = points/count;
-				var scl = possessions({Flow: flow_type, Shot_type: "Semi-contested layup"})
-				console.log(flow_type + " semi-contested layups: " + scl.count())
+				var scl = possessions({Flow: flow_type, Shot_type: "Semi contested layup"})
 				return {type: flow_type, value: val.toFixed(2), count: count}
 			}
 
@@ -660,7 +699,7 @@
 				var putback_obj = get_flow_object("Putback")
 
 				var data = [halfcourt_obj, transition_obj, putback_obj]
-				initialize_chart(data, "#possession-type-chart")
+				initialize_chart(data, "#possession-type-chart", {header: "Points Per Possession for Possesion Types", x: "Possession Type", y: "Points per Possession"})
 			}
 
 			function get_shot_type_object(shot_type){
@@ -672,17 +711,20 @@
 			}
 
 			function insert_shot_type_chart(){
-				var scl = get_shot_type_object("Semi-contested layup")
+				var scl = get_shot_type_object("Semi contested layup")
 				var cl = get_shot_type_object("Contested layup")
 				var ol = get_shot_type_object("Open layup")
-				var sc3 = get_shot_type_object("Semi-contested 3")
+				var sc3 = get_shot_type_object("Semi contested 3")
 				var c3 = get_shot_type_object("Contested 3")
 				var o3 = get_shot_type_object("Open 3")
 				var c2 = get_shot_type_object("Contested 2")
-				var sc2 = get_shot_type_object("Semi-contested 2")
+				var sc2 = get_shot_type_object("Semi contested 2")
 				var fl = get_shot_type_object("Floater")
-				var data = [ol, o3, scl, sc3, sc2, cl, c3, c2, fl, ];
-				initialize_chart(data, "#possession-result-chart")
+				var data = [ol, o3, scl, sc3, sc2, cl, c3, c2, fl];
+				data.sort(function(a, b) {
+					return b.value - a.value;
+				});
+				initialize_chart(data, "#possession-result-chart", {header: "Points Per Possession for Shot Selection", x: "Shot Selection", y: "Points per Possession"})
 			}
 
 			function get_play_type_object(play_type){
@@ -690,6 +732,7 @@
 				var points = poss.sum("Points")
 				var count = poss.count()
 				var val = points/count;
+				console.log("play_type: " + play_type + "count: " + count)
 				return {type: play_type, value: val.toFixed(2), count: count}
 			}
 
@@ -698,12 +741,116 @@
 				var base = get_play_type_object("Base")
 				var zone = get_play_type_object("Zone")
 				var data = [sets, base, zone]
-				initialize_chart(data, "#play-type-chart")
+				initialize_chart(data, "#play-type-chart", {header: "Points Per Possession for Play Type", x: "Play Type", y: "Points per Possession"})
 			}
 
-			function test_query(){
-				console.log(possessions({Opponent: "Albany"}).get())
-			}
+
+
+    function get_shot_type_pie_object(shot_type, possession_type, color){
+        var poss = possessions({Shot_type: shot_type, Flow: possession_type})
+        var count = poss.count()
+        return {type: shot_type, count: count, color: color}
+    }
+
+    function create_data_array(init_array){
+    	var return_array= []
+    	var len = init_array.length
+    	for(var i = 0; i < len; i++){
+    		if(init_array[i].count != 0){
+    			return_array.push(init_array[i])
+    		}
+    	}
+    	return return_array
+    }
+
+    function insert_pie_chart(possession_type, container){
+        var scl = get_shot_type_pie_object("Semi contested layup", possession_type, "#ff6868")
+        var cl = get_shot_type_pie_object("Contested layup", possession_type, "#fd7941")
+        var ol = get_shot_type_pie_object("Open layup", possession_type, "#e78ac3")
+        var sc3 = get_shot_type_pie_object("Semi contested 3", possession_type, "#89acfd")
+        var c3 = get_shot_type_pie_object("Contested 3", possession_type, "#74dcbc")
+        var o3 = get_shot_type_pie_object("Open 3", possession_type, "#41c4e6")
+        var c2 = get_shot_type_pie_object("Contested 2", possession_type, "#ffd92e")
+        var sc2 = get_shot_type_pie_object("Semi contested 2", possession_type, "#a6d854")
+        var fl = get_shot_type_pie_object("Floater", possession_type, "#7d859e")
+        var data = create_data_array([ol, o3, scl, sc3, sc2, cl, c3, c2, fl])
+        data.sort(function(a, b) {
+			return b.count - a.count;
+		});
+        create_pie_chart(data,container, possession_type)
+    }
+
+    function create_pie_chart(data, container, label){
+	    const width = 300;
+	    const height = 300;
+	    const radius = Math.min(width, height) / 2;
+	    const svg = d3.select(container)
+	        .append("svg")
+	            .attr("width", width)
+	            .attr("height", height)
+	        .append("g")
+	            .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+	    //const color = d3.scaleOrdinal(["#66c2a5","#fc8d62","#8da0cb",
+	         //"#e78ac3","#a6d854","#ffd92f"]);
+
+	    const pie = d3.pie()
+	        .value(d => d.count)
+	        .sort(null);
+
+	    const arc = d3.arc()
+	        .innerRadius(0)
+	        .outerRadius(radius);
+
+	    function arcTween(a) {
+	        const i = d3.interpolate(this._current, a);
+	        this._current = i(1);
+	        return (t) => arc(i(t));
+	    }
+	  
+	    // Join new data
+	    const path = svg.selectAll("path")
+	        .data(pie(data));
+
+	    // Update existing arcs
+	    path.transition().duration(200).attrTween("d", arcTween);
+
+	    // Enter new arcs
+	    path.enter()
+	        .append("path")
+	        .attr("fill", (d, i) => d.data.color)
+	        .attr("d", arc)
+	        .attr("stroke", "white")
+	        .attr("stroke-width", "2px")
+	        .each(function(d) { 
+	        	this._current = d; 
+	        })
+
+	    path.enter()
+	        .append("text")
+	        .attr("x", function(d) {
+	        var a = d.startAngle + (d.endAngle - d.startAngle)/2 - Math.PI/2;
+	        d.cx = Math.cos(a) * (radius - 45);
+	        return d.x = Math.cos(a) * (radius-45);
+	    })
+	    .attr("y", function(d) {
+	        var a = d.startAngle + (d.endAngle - d.startAngle)/2 - Math.PI/2;
+	        d.cy = Math.sin(a) * (radius - 45);
+	        return d.y = Math.sin(a) * (radius-45);
+	    })
+        .attr("text-anchor", "middle")
+        .text( function(d, i) {
+          return data[i].type;}
+        )
+
+        svg.append('text')
+	      .attr('class', 'label')
+	      .attr('x', 0 )
+	      .attr('y', height*2/3)
+	      .attr('text-anchor', 'middle')
+	      .text(label + ' Shots')
+
+    }
 		</script>
 	</body>
 				

@@ -1,14 +1,15 @@
  body {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 div#layout {
-  text-align: center;
+
 }
 
 .bar-chart {
-  width: 1000px;
-  height: 600px;
+  width: 66vw;
+  height: 40vw;
   margin: auto;
   background-color: #2F4A6D;
   margin-bottom: 20px;
@@ -21,15 +22,19 @@ svg {
 }
 
 .bar {
-  fill: #80cbc4;
+  fill: #fc8d62;
 }
 
-text {
+.bar-chart text {
   font-size: 12px;
   fill: #fff;
 }
 
-path {
+.pie-chart path {
+
+}
+
+.bar-chart path {
   stroke: gray;
 }
 
