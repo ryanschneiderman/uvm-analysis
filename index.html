@@ -47,13 +47,13 @@
 					<div class = "section" id = "summary">
 						<div class = "section-header header2">Summary</div>
 						<div class = "section-description" >
-							In the following analysis, I dive deep into at the UVM men's basketball team's offense. Using every possessions from 5 games -- Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H) -- I conduct a data analysis breaking down the points per possession for situational offense (halfcourt vs. transition vs. putbacks), kinds of halfcourt possession (set offense vs. base offense), and shot type (Contested 3, Semi contested layups, open 2, etc.). In a video analysis, I pinpoint particular key areas of offense and ways to boost efficiency in these areas. The key areas are maximizing Anthony Lamb's Gravity on the court, situational basket cuts, bigs as offensive catalysts, optimizing pick and roll, post seals to create penetration lanes, and reads regarding screens. Finally, I discuss more abstract concepts of offense and a global philosophy. 
+							In the following analysis, I dive deep into at the UVM men's basketball team's offense. Using every possessions from 5 games -- Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H) -- I conduct a data analysis breaking down the points per possession for situational offense (halfcourt vs. transition vs. putbacks), kinds of halfcourt possession (set offense vs. base offense), and shot type (Contested 3, Semi contested layups, open 2, etc.). In a video analysis, I pinpoint key areas of offense and ways to boost efficiency in these areas. They are the impact of Anthony Lamb's Gravity on the court, situational basket cuts, bigs as offensive catalysts, optimizing pick and roll, post seals to create penetration lanes, and reads regarding screens. Finally, I discuss more abstract concepts of offense and a global philosophy. 
 						</div>
 					</div>
 					<div class = "section" id = "data-analysis">
 						<div class = "section-header header2">Data Analysis</div>
 						<div class = "section-text">
-								The following graph shows the points per possession for different types of possessions. The most efficient possessions were in transition, followed by putbacks and then halfcourt. This is close to what we would expect - putbacks and transition should be more efficient than halfcourt offense. The question is, should we expect a gap in efficiency this large? 
+								The following graph shows the points per possession for different types of possessions. The most efficient possessions were transition, followed by putbacks and then halfcourt. This is close to what we would expect - putbacks and transition should be more efficient than halfcourt offense. The question is, should we expect a gap in efficiency this large? 
 						</div>
 						<div class = "section-content">
 							<div id='layout'>
@@ -62,11 +62,15 @@
 							      <svg />
 							    </div>
 							    <div class = "section-text">
-							    	Let's take a look at the difference is shot selection in the half court vs transition. We can see the kinds of shots that the offense gets in transition are in general better than the shots the offense gets in the halfcourt. Transition results in a higher percentage of open 3's and open layups, but has a higher rate in contested and semi-contested layups. Transition also has a much lower percentage of contested 3's, and I counted zero contested and semi contested 2's as well as floaters -  all inefficient shots. All in all, it makes a lot sense that transition would result in a higher expected point total. There is more space, the defense is less set, there is the potential for man advantages. But the question remains, how can we create more transition like opportunities in the halfcourt? Specifically, how can we create more open 3's and open layups?
+							    	Let's take a look at  shot selection. We can see that open layups are the most efficient shot by far followed by open 3's and semi consted 3's. I expect that over a larger sample size open 3's would rise in points per possession. Floater's and contested shots are the least efficient.
+
 								</div>
 							    
 							    <div id='possession-result-chart' class = "bar-chart">
 							      <svg />
+							    </div>
+							    <div class = "section-text">
+							    	 Now lets look at the breakdown in the shots UVM got in the halfcourt vs. transition. We can see the kinds of shots that the offense gets in transition are in general better than the shots the offense gets in the halfcourt. Transition results in a higher percentage of open 3's and open layups, but has a higher rate in contested and semi-contested layups. Transition also has a much lower percentage of contested 3's, and I counted zero contested and semi contested 2's as well as floaters. All in all, it makes a lot sense that transition would result in a higher expected point total. There is more space, the defense is less set, and there is the potential for man advantages. But the question remains, how can we create more transition like opportunities in the halfcourt? Specifically, how can we create more open 3's and open layups?
 							    </div>
 							     <div id = "possession-pie-charts" class = "pie-charts">
 							    	<div class = "pie-chart-wrapper">
@@ -87,7 +91,7 @@
 							<div class = "section-text">
 								This is a difficult question to answer without in depth data on college offenses throughout the country, but one mode of comparison is the NBA. The NBA isn't a perfect comparison, so I will first discuss some of the problems between comparing the NBA and college. The first is the rules. Due to the franchise setup of the NBA, the discrepency in teams is not as high from top to bottom than in college. The better college programs can attract better talent, the better NBA teams get worse draft picks. The defensive three second rule in the NBA makes it much more difficult for NBA teams to contain opposing offenses. Another are of difference is the skill level of the players. There is an argument to be made that the gap in offensive skill and defensive skill in the NBA is larger than college. The consistency of defensive effort is certainly lower in the NBA. The sum of these differences would suggest that NBA teams woud be more efficient in the halfcourt than college teams. As it turns out, that is the case. <a href = 'https://cleaningtheglass.com/stats/league/context#tab-offense_halfcourt_putbacks'>The median points per possession in the halfcourt in the NBA is .95</a> - a signifcantly higher number.
 
-								There is one difference between the NBA and college that I deliberately haven't mentioned, and it is the most crucial in the context of this analysis. NBA players make better offensive decisions. They are more experienced, and better trained. They recognize patterns in defenses better. They can make more precise reads. These are all things that come with time, but decision making ability can be accelerated by good coaching. I propose that the greatest room for improvement in the UVM offense is decision making. With that being said let's take a look at some film
+								There is one difference between the NBA and college that I deliberately haven't mentioned, and it is the most crucial in the context of this analysis. NBA players make better offensive decisions. They are more experienced, and better trained. They recognize patterns in defenses better. They can make more precise reads. These are all things that come with time, but decision making ability can be accelerated by good coaching. I propose that the greatest room for improvement in the UVM offense is decision making. With that being said let's take a look at some film.
 							</div>
 						</div>
 					</div>
@@ -137,7 +141,7 @@
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/Lamb-double.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text">  Recognizing that the opponents have been aggressively trying to prevent Lamb from getting touches Shungu should anticipate help coming. The obvious pass is to Everett in the corner. Gidden should set a flare screen for Everett to create a wide open 3 opportunity. </p>
+										<p class = "film-analysis-text">  While it would be difficult to expect Shungu to anticipate a defender fully leaving his man, he should at least anticipate that the defense will try to take away this pass to Lamb.The obvious pass is to Everett in the corner. Gidden should set a flare screen for Everett to create a wide open 3 opportunity. </p>
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/lamb/lamb-9A.jpg">
 										</div>
@@ -153,7 +157,7 @@
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/Lamb-postup-1.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text">  Notice two things: Shungu's defender's body positioning and the backside help. If Lamb is able to seal his defender, there is a clear lane for Shungu to drive to the hoop. Shungu's defender is so concerned about Lamb he compromises his primary defensive responsibility: containing the ball handler. </p>
+										<p class = "film-analysis-text">  Notice two things: Shungu's defender's body positioning and the backside help. If Lamb is able to seal his defender, there is a clear lane for Shungu to drive to the hoop. Shungu's defender is so concerned about Lamb he compromises his primary defensive responsibility: containing the ball handler. Post seals is a topic I will build on later.</p>
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/lamb/lamb-3.jpg">
 										</div>
@@ -200,9 +204,9 @@
 								<div class = "header3 film-analysis-header" id = "basket-cuts-analysis">Situational Basket Cuts</div>
 								
 								<div class = "section-description film-analysis-description">
-									<p>There are few actions that can create easy layup opportunities like a timely basket cut. However, there are some considerations for a player to make before making a basket cut like whether cutting will clog the space in the middle for another player, or whether staying in their current position gives them a better opportunity to get the ball in space than cutting would. Making a cut is inherently a risk. It won't always pay off, but when it does not only does it create easy scoring opportunities, but it also forces the defense to respect the cut. Lanes for basket cuts arise when a defense is anticipating helping off another action. If the defense knows players will make basket cuts when they anticipate, the help will not be as strong on penetration. In the following section, I outline numerous situations primed for basket cuts. </p> 
+									<p>There are few actions that can create easy layup opportunities like a timely basket cut. However, there are some considerations for a player to make before making a basket cut like whether cutting will clog the space in the middle for another player, or whether staying in their current position gives them a better opportunity to get the ball in space than cutting would. Making a cut is inherently a risk. It won't always pay off, but when it does not only does it create easy scoring opportunities, but it also forces the defense to respect the cut. Lanes for basket cuts arise when a defense is anticipating helping off another action. If the defense knows players will make basket cuts when they over-anticipate, the help will not be as strong on penetration. In the following section, I outline numerous situations primed for basket cuts. </p> 
 
-									<p>As a general rule, a basket cut is an effective option when a ball handler is driving in at an offensive player in the post or in the corner.  </p>
+									<p>As a general rule, a basket cut is an effective option when a ball handler is driving towards an offensive player in the post or in the corner.  </p>
 								</div>
 
 								<div class = "film-analysis-module">
@@ -240,7 +244,7 @@
 								<div class = "film-analysis-module">
 									<div class = "header4">Example 3</div>
 									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">Here is an example of a different option that opens when a player makes a basket cut when driven at. Smith isn't open for a pass, but he clears the help so Everett to drive and finish at the rim. </p>
+										<p class = "film-analysis-text">Here is an example of a different option that opens when a player makes a basket cut when driven at. Smith isn't open for a pass, but he clears the help for Everett to drive and finish at the rim. </p>
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/basket-cut-lane.mp4'></video>
 									</div>
 								</div>
@@ -249,11 +253,11 @@
 								<div class = "film-analysis-module">
 									<div class = "header4">Example 4</div>
 									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">Here we see Robin pass directly to Patella in the corner, but while he looks open for a moment it is really fools gold. This is the pass the defense wants you to make.</p>
+										<p class = "film-analysis-text">Here we see Robin pass directly to Patella in the corner, but while he looks open for a moment it is really fools gold. This is the pass the defense wants you to make. If Patella shoots immediately, it will likely be contested because the defender's momentum is moving in that direction. A fake shot into drive is an ok option, but by that time help will have arrived on the weak side. An immediate drive allows the corner defender to recover to the baseline and cut off any advantage in the middle.</p>
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/fools-gold.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text">  If Patella shoots immediately, it will likely be contested because the defender's momentum is moving in that direction. A fake shot into drive is an ok option, but by that time help will have arrived on the weak side. An immediate drive allows the corner defender to recover to the baseline and cut off any advantage in the middle. The way you take advantage of this defense is for Robin to continue his drive until the corner defender commits, and then Patella makes a basket cut. For this cut to be maximally effective, there should be weak side action (down screen, exchange of positions, etc.) to occupy the weak side help, and Davis should stay high.  </p>
+										<p class = "film-analysis-text">   The way you take advantage of this defense is for Robin to continue his drive until the corner defender commits, and then Patella makes a basket cut. For this cut to be maximally effective, there should be weak side action (down screen, exchange of positions, etc.) to occupy the weak side help, and Davis should stay high.  </p>
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/basket_cuts/cut-9.jpg">
 										</div>
@@ -265,11 +269,11 @@
 								<div class = "film-analysis-module">
 									<div class = "header4">Example 5</div>
 									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">Here we have a pick and pop by Davis, and if we look to Powell's defender in the left corner, he loses sight of his man. And since Davis popped the middle is completely open. A basket cut likely results in a lay up. However since Shungu makes the backdoor cut (we can see how much space he gets in front of his man), Powell's defender is in front of him there is no passing lane. (Awesome offensive rebound though!) </p>
+										<p class = "film-analysis-text">Here we have a pick and pop by Davis, and if we look to Powell's defender in the left corner, he loses sight of his man. And since Davis popped the middle is completely open. A basket cut likely results in a lay up. However since Shungu makes the backdoor cut (we can see how much space he gets in front of his man), Powell's defender is in front of him and there is no passing lane. (Awesome offensive rebound though!) </p>
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/pick-pop-cut.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text"> Assuming Powell makes the backdoor cut, a good option for Shungu is to come to the point to receive a handoff from Davis. Not only will this likely occupy the attention of Powell's defender in the corner, but once Shungu receives the ball he can attack the right side of the floor and apply the same principle. Everett makes a basket cut from the corner and Robin fills in. </p>
+										<p class = "film-analysis-text"> Assuming Powell makes the backdoor cut, a good option for Shungu is to come to the point to receive a handoff from Davis. Not only will this likely occupy the attention of Powell's defender in the corner, but once Shungu receives the ball he can attack the right side of the floor and apply the same principle. Everett makes a basket cut from the corner and Robin fills in. This is an example of using a big as on offensive catalyst along the perimeter. More on that in the next section. </p>
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/basket_cuts/cut-5.jpg">
 										</div>
@@ -293,7 +297,7 @@
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/upscreen-sag-1.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text"> The way to take advantage of this is instead of setting the ball screen, Everett passes to Davis immediately and sprints for a handoff->screen. Because this action is quicker, Davis's defender will likely still be in the process of recovering and his momentum will make more difficult for him to help. Shungu's defender (right corner) will likely be focused on penetration making him prone for the basket cut principle. </p>
+										<p class = "film-analysis-text"> The way to take advantage of this is instead of setting the ball screen, Everett passes to Davis immediately and sprints for a handoff->screen. Because this action is quicker, Davis's defender will likely still be in the process of recovering and his momentum will make it more difficult for him to help. Shungu's defender (right corner) will likely be focused on penetration making him prone for the basket cut principle. </p>
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/bigs/big-3.jpg">
 										</div>
@@ -339,7 +343,7 @@
 								<div class = "film-analysis-module">
 									<div class = "header4">Example 4</div>
 									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">Details often make the difference between a successful execution of a set and a breakdown. Here, we can see that Smith is making a backdoor cut, but since Davis is posting up at the high post instead of the 3 point line, his defender can affect the passing lane to Smith to prevent the pass.   </p>
+										<p class = "film-analysis-text">Details often make the difference between a successful execution of a set and a breakdown. Here, we can see that Smith makes a backdoor cut, but since Davis is posting up at the high post instead of the 3 point line, his defender can affect the passing lane to Smith to prevent the pass.   </p>
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/big-high-post.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
@@ -456,28 +460,6 @@
 
 
 
-								<div class = "film-analysis-module">
-									<div class = "header4">Example 5</div>
-									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">On this pick and roll, Davis sets the screen to the stronger side of the floor. Even though this play ended in a basket for Davis, I believe the better option was to for Davis to pop after the screen. Firstly, Stony Brook's pick and roll defense was poor in this instance. When Smith gets deep, it is clear that Davis's defender has him contained. The only play for Smith is to pass to Davis and Smith's defender should have recognized this and switched on to Davis. Better execution by the defense and a pass to Davis would have resulted in a turnover. </p>
-
-										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/pop-read-2.mp4'></video>
-									</div>
-									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text"> There are also many positives to a Davis pop. The first is it opens up the space for Lamb to execute the basket cut principle. Notice that even though the defense has two defenders committed to Smith, Lamb's defender is still partially focused on Smith (also notice his momentum instinctively goes to the corner). If Lamb makes a basket cut, it opens up the corner for Shungu which would make his defender stunting towards Smith more consequential. A Davis pop also opens up a the possibility of a kick to Davis and a handoff with Everett. With Davis's defender occupied with Smith, he would have big trouble helping off a handoff -> screen with Everett. As discussed before this action is a good opportunity for an easy 3 or easy penetration.  </p>
-
-										<div class = "film-analysis-image">
-											<img class = "image" src = "images/pick_roll/pick-roll-6.jpg">
-										</div>
-
-										<p class = "film-analysis-text"> This isn't to say a ball screen should be a pick and pop here every time. Mixing between pops and rolls forces the defense to respect both options. When a defense isn't sure what the offense is going to do, more gaps occur and executing both versions becomes easier. </p>
-
-									</div>
-								</div>
-
-
-
-
 
 
 							</div>
@@ -533,7 +515,7 @@
 								<div class = "header3 film-analysis-header" id = "screen-reads">Reads Regarding Screens</div>
 								
 								<div class = "section-description film-analysis-description">
-									<p class = "film-analysis-text">Screens are the building block of an offense. They are an easy way to create space for a player and a system which can maximize the effectiveness of screens will likely be efficient.  One of the easiest ways to increase the dynamism of an offense is to implement a read system based on how defenses guard screens. The effectiveness of a screen hinges on the angle it is set and the body positioning of a player. For a screen to be most effective, the screener should set the angle of his body square with the defender to achieve maximum contact. The player running off the screen should set the angle of his run in line with the angle of the screen so that defenses can't go under a screen without consequence. In the following examples, I demonstrate situations where the screener and the person coming off the screen should be making adjustments to maximize the effectiveness of the screen. </p>
+									<p class = "film-analysis-text">Screens are the building block of an offense. They are an easy way to create space for a player and a system which can maximize the effectiveness of screens will likely be an efficient one.  One of the easiest ways to increase the dynamism of an offense is to implement a read system based on how defenses guard screens. The effectiveness of a screen hinges on the angle it is set and the body positioning of a player. For a screen to be most effective, the screener should set the angle of his body square with the defender to achieve maximum contact. The player running off the screen should set the angle of his run in line with the angle of the screen so that defenses can't go under a screen without consequence. In the following examples, I demonstrate situations where the screener and the person coming off the screen should be making adjustments to maximize the effectiveness of the screen. </p>
 
 								</div>
 
@@ -567,7 +549,7 @@
 											<img class = "image" src = "images/screens/screen-6.jpg">
 										</div>
 
-										<p class = "film-analysis-text">Next, lets take a look at the handoff with Davis and Smith — a good example of Davis as an offensive catalyst along the perimeter. He sees the advantage Smith has from the Everett screen so he slips it immediately — a good read. He isn't open because Everett's defender helps. Smith looks at Davis and sees he is not open, but doesn't recognize that the help is coming from Everett's defender and Everett is wide open. If Everett can get the ball early here, he has a clear lane to attack the basket and commit defenders or score. As it happens he passes to the other side of the floor where there is no advantage.  </p>
+										<p class = "film-analysis-text">Next, lets take a look at the handoff with Davis and Smith -- a good example of Davis as an offensive catalyst along the perimeter. He sees the advantage Smith has from the Everett screen so he slips it immediately -- a good read. He isn't open because Everett's defender helps. Smith looks at Davis and sees he is not open, but doesn't recognize that the help is coming from Everett's defender and Everett is wide open. If Everett can get the ball early here, he has a clear lane to attack the basket and commit defenders or score. As it happens he passes to the other side of the floor where there is no advantage.  </p>
 
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/screens/combo.jpg">
@@ -601,7 +583,7 @@
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/Screen-angle.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
-										<p class = "film-analysis-text">The better option is for Gidden to set a screen for Smith to attack the right side of the floor after Smith catches the ball. This eventually happens, but notice Giddens defender when Smith is about to catch the ball: he is guarding against the curl. If Smith and Gidden are on the same page from the start — Smith catches, Gidden immediately adjusts his screen to the right, Smith rips through and attacks — Smith is able to attack without Gidden's player in a position to help. This leaves Lamb's defender as the primary help defender. If Smith attacks Lamb's defender, Lamb will have an opportunity to make a basket cut, or flare to the corner for a 3. As it happens, because the action is delayed, Gidden's defender is able to get in better help position and help penetration. </p>
+										<p class = "film-analysis-text">The better option is for Gidden to set a screen for Smith to attack the right side of the floor after Smith catches the ball. This eventually happens, but notice Giddens defender when Smith is about to catch the ball: he is guarding against the curl. If Smith and Gidden are on the same page from the start -- Smith catches, Gidden immediately adjusts his screen to the right, Smith rips through and attacks -- Smith is able to attack without Gidden's player in a position to help. This leaves Lamb's defender as the primary help defender. If Smith attacks Lamb's defender, Lamb will have an opportunity to make a basket cut, or flare to the corner for a 3. As it happens, because the action is delayed, Gidden's defender is able to get in better help position and help penetration. </p>
 
 										<div class = "film-analysis-image">
 											<img class = "image" src = "images/screens/screen-2.jpg">
@@ -617,7 +599,7 @@
 									<div class = "film-analysis-video-block">
 										<p class = "film-analysis-text">In this set, normally Lamb comes off a Shungu cross/curl screen, but in this case he makes a read and decides to flare out for 3.  </p>
 
-										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/Screen-angle.mp4'></video>
+										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/shungu-screen.mp4'></video>
 									</div>
 									<div class = "film-analysis-text-block">
 										<p class = "film-analysis-text">Shungu should recognize Lamb's intention and set a flare screen, but instead doesn't adjust and Lamb's defender is able to easily recover and block Lamb's shot. This is an instance where two players are thinking/seeing different things, which can be seen as a downside to a read based system. But what you lose in risk of miscommunication you gain in upside. After a miscommunication like this, you discuss after the fact and expect the next time these players encounter a similar situation they will be on the same page and are able to take advantage. </p>
@@ -631,7 +613,7 @@
 								<div class = "film-analysis-module">
 									<div class = "header4">Example 6</div>
 									<div class = "film-analysis-video-block">
-										<p class = "film-analysis-text">Here, we have a situation where the play script has Robin coming for a handoff, but notice his defender on the Powell screen. Powell has executed a perfectly square screen and his defender is having all kinds of trouble. However, since Robin comes all the way over the top of Lamb, his defender should be able to meet him on the other side after the handoff. As it happens, Lamb's defender unnecessarily switches onto Robin — Robin's defender easily could have recovered.   </p>
+										<p class = "film-analysis-text">Here, we have a situation where the play script has Robin coming for a handoff, but notice his defender on the Powell screen. Powell has executed a perfectly square screen and his defender is having all kinds of trouble. However, since Robin comes all the way over the top of Lamb, his defender should be able to meet him on the other side after the handoff. As it happens, Lamb's defender unnecessarily switches onto Robin -- Robin's defender easily could have recovered.   </p>
 
 										<video autoplay muted loop class = "video" src = 'https://uvm-analysis.s3.amazonaws.com/Robin-screen-read.mp4'></video>
 									</div>
@@ -674,7 +656,7 @@
 									<img class = "image" src = "images/basket_cuts/cut-discussion.jpg">
 								</div>
 
-								 <p>We can see that one defender is truly committed to the help, but every single defender is committed with their attention. Everett drives to the middle with his left, everyone on the perimeter should rotate left. Not only does this principle open up gaps and passing lanes that are difficult to defend, but it also achieves synchronized and purposeful movement. It is possible to study and anticipate synchronized and purposeful movement in a set — but much harder to anticipate synchronized and purposeful movement as a principle. This achieves what I believe to be central to good offense and that is forcing the defense to defend. It sounds simplistic but the worst quality of an offense is one that is static. Static offenses are easy to help off of. Great offenses punish help. Great offenses are dynamic. Great offenses force the defense to defend. Achieving synchronized and purposeful movement as an offensive principle is what I believe to be the key to good offense.</p>
+								 <p>We can see that one defender is truly committed to the help, but every single defender is committed with their attention. Everett drives to the middle with his left, everyone on the perimeter should rotate left. Not only does this principle open up gaps and passing lanes that are difficult to defend, but it also achieves synchronized and purposeful movement. It is possible to study and anticipate synchronized and purposeful movement in a set — but much harder to anticipate synchronized and purposeful movement as a principle. This achieves what I believe to be central to good offense and that is forcing the defense to defend. It sounds simplistic but the worst quality of an offense is one that is static. Static offenses are easy to help off of. Great offenses punish help. Great offenses are dynamic. Great offenses force the defense to defend. Achieving synchronized and purposeful movement as an offensive principle is what I believe to be the key to taking a good offense and making it great.</p>
 
 
 						</div>
@@ -754,7 +736,6 @@
 				var points = poss.sum("Points")
 				var count = poss.count()
 				var val = points/count;
-				var scl = possessions({Flow: flow_type, Shot_type: "Semi contested layup"})
 				return {type: flow_type, value: val.toFixed(2), count: count}
 			}
 
@@ -782,6 +763,8 @@
 				var sc3 = get_shot_type_object("Semi contested 3")
 				var c3 = get_shot_type_object("Contested 3")
 				var o3 = get_shot_type_object("Open 3")
+				console.log(o3.count)
+				console.log(sc3.count)
 				var c2 = get_shot_type_object("Contested 2")
 				var sc2 = get_shot_type_object("Semi contested 2")
 				var fl = get_shot_type_object("Floater")
