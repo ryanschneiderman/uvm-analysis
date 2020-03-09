@@ -4,6 +4,7 @@
 		<script src="https://d3js.org/d3.v5.min.js"></script>
 		<script src="chart2.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Courier+Prime|Josefin+Slab|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 		 <link rel="stylesheet" href="chart.css">
 		 <link rel="stylesheet" href="main.css">
 		 <style>
@@ -22,24 +23,25 @@
 </style>
 	</head>
 	<body>
+		<section>
 		<div id = "main">
 			<div id = "nav-bar-wrapper" class = "main-grid-item">
 				<div id = "nav-bar">
-					<div class = "navbar-link" id = "summary-link"><div class = "navbar-link-title link1"><a class = "no-link-style"href = "#summary" >SUMMARY</a></div></div>
-					<div class = "navbar-link" id = "data-analysis-link"><div class = "navbar-link-title link1"><a class = "no-link-style" href = "#data-analysis">DATA</a></div></div>
+					<div class = "navbar-link" id = "summary-link"><div class = "link1"><a class = "no-link-style navbar-link-title"href = "#summary" >SUMMARY</a></div></div>
+					<div class = "navbar-link" id = "data-analysis-link"><div class = " link1"><a class = "no-link-style navbar-link-title" href = "#data-analysis">DATA</a></div></div>
 					<div class = "navbar-link" id = "film-analysis-link">
-						<div class = "navbar-link-title link1"><a class = "no-link-style" href = "#film-analysis">FILM ANALYSIS</a></div>
+						<div class = "link1"><a class = "no-link-style navbar-link-title" href = "#film-analysis">FILM</a></div>
 						<div id = "sublink-wrapper">
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#lamb-analysis">LAMB GRAVITY</a></div>
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#basket-cuts-analysis">BASKET CUTS</a></div>
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#bigs-perimeter">BIGS ON PERIMETER</a></div>
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#pick-roll">PICK AND ROLL</a></div>
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#post-seals">POST SEALS</a></div>
-							<div class = "navbar-sublink link2"><a class = "no-link-style" href = "#screen-reads">SCREENS</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#lamb-analysis">LAMB GRAVITY</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#basket-cuts-analysis">BASKET CUTS</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#bigs-perimeter">BIGS ON PERIMETER</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#pick-roll">PICK AND ROLL</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#post-seals">POST SEALS</a></div>
+							<div class = " link2"><a class = "navbar-sublink no-link-style" href = "#screen-reads">SCREENS</a></div>
 						</div>
 						
 					</div>
-					<div class = "navbar-link link1" id = "discussion-link"><a class = "no-link-style" href = "#discussion">DISCUSSION</a></div>
+					<div class = "navbar-link" id = "discussion-link"><div class = "link1"><a class = "no-link-style navbar-link-title" href = "#discussion">DISCUSSION</a></div></div>
 				</div>
 			</div>
 			<div id = "content" class = "main-grid-item">
@@ -102,8 +104,8 @@
 							For the following film analysis, I looked at every possession from 5 games: Dartmouth (H), Albany (A), Stony Brook (A), Hartford (A), and UMBC (H). My goal was to find ways for the offense to be more efficient, particularly in high usage areas of the offense. I came to the conclusion that the six most important areas for increased efficiency were taking advantage of Anthony Lamb's court gravity, increasing situational basket cuts, using bigs along the perimeter, decision making in the pick and roll, using penetration lanes created by post seals, and improving reads regarding screens.
 						</div>
 						<div class = "section-content" >
-							<div class = "header3 film-analysis-header" id ="lamb-analysis">Maximizing Lamb's Court Gravity</div>
-							<div class = "film-analysis-section">
+							<div class = "header3 film-analysis-header" >Maximizing Lamb's Court Gravity</div>
+							<div class = "film-analysis-section" id ="lamb-analysis">
 								
 								<div class = "section-description film-analysis-description">
 									<p>In football there is a concept that some players tilt the defense in their direction. If a defense believes that a single player is dangerous enough, they may commit extra defenders to his side of the field in order to contain him. Tyreek Hill of the Chiefs comes to mind. His speed is so lethal that defenses often trade a balanced defensive structure in order to mitigate the threat of a long touchdown. This defensive strategy can work, but an offense can exploit this defensive strategy if it is able to take advantage of the extra space provided for the other players.</p> 
@@ -200,8 +202,8 @@
 
 
 							</div>
-							<div class = "film-analysis-section">
-								<div class = "header3 film-analysis-header" id = "basket-cuts-analysis">Situational Basket Cuts</div>
+							<div class = "film-analysis-section" id = "basket-cuts-analysis">
+								<div class = "header3 film-analysis-header" >Situational Basket Cuts</div>
 								
 								<div class = "section-description film-analysis-description">
 									<p>There are few actions that can create easy layup opportunities like a timely basket cut. However, there are some considerations for a player to make before making a basket cut like whether cutting will clog the space in the middle for another player, or whether staying in their current position gives them a better opportunity to get the ball in space than cutting would. Making a cut is inherently a risk. It won't always pay off, but when it does not only does it create easy scoring opportunities, but it also forces the defense to respect the cut. Lanes for basket cuts arise when a defense is anticipating helping off another action. If the defense knows players will make basket cuts when they over-anticipate, the help will not be as strong on penetration. In the following section, I outline numerous situations primed for basket cuts. </p> 
@@ -282,8 +284,8 @@
 								</div>
 
 							</div>
-							<div class = "film-analysis-section">
-								<div class = "header3 film-analysis-header" id = "bigs-perimeter">Bigs as Perimeter Catalysts</div>
+							<div class = "film-analysis-section"  id = "bigs-perimeter">
+								<div class = "header3 film-analysis-header">Bigs as Perimeter Catalysts</div>
 								
 								<div class = "section-description film-analysis-description">
 									<p>Using bigs as offensive catalysts on the perimeter is a very effective strategy for one primary reason: it clears the middle of potential shot blockers. Having bigs that can shoot threes makes this strategy even more effective because it prevents defenders sagging off of non-shooters, but even in the case of sagging defenders bigs can effectively create good offensive action. The following examples show different ways bigs can be used along the perimeter, and details bigs should key on to inform the reads they make. </p> 
@@ -357,8 +359,8 @@
 
 
 							</div>
-							<div class = "film-analysis-section">
-								<div class = "header3 film-analysis-header" id = "pick-roll">Optimizing Pick and Roll</div>
+							<div class = "film-analysis-section" id = "pick-roll">
+								<div class = "header3 film-analysis-header" >Optimizing Pick and Roll</div>
 								
 								<div class = "section-description film-analysis-description">
 									<p>The pick and roll and its many variations are a staple of any modern offense. Maximizing the efficiency of pick and rolls has a large impact on the efficiency of the offense at large due to the sheer quantity of pick and roll actions. After analyzing the pick and rolls in UVM's offense, I found many examples where small tweaks to the execution of the pick and roll could result in a boost in efficiency. </p> 
@@ -463,8 +465,8 @@
 
 
 							</div>
-							<div class = "film-analysis-section">
-								<div class = "header3 film-analysis-header" id = "post-seals">Post Seals on Penetration</div>
+							<div class = "film-analysis-section" id = "post-seals">
+								<div class = "header3 film-analysis-header" >Post Seals on Penetration</div>
 								
 								<div class = "section-description film-analysis-description">
 									<p class = "film-analysis-text">A common trend in the modern NBA is using bigs to seal penetration lanes. Here is an example of the Wizards using this concept.</p>
@@ -511,8 +513,8 @@
 
 
 							</div>
-							<div class = "film-analysis-section">
-								<div class = "header3 film-analysis-header" id = "screen-reads">Reads Regarding Screens</div>
+							<div class = "film-analysis-section" id = "screen-reads">
+								<div class = "header3 film-analysis-header" >Reads Regarding Screens</div>
 								
 								<div class = "section-description film-analysis-description">
 									<p class = "film-analysis-text">Screens are the building block of an offense. They are an easy way to create space for a player and a system which can maximize the effectiveness of screens will likely be an efficient one.  One of the easiest ways to increase the dynamism of an offense is to implement a read system based on how defenses guard screens. The effectiveness of a screen hinges on the angle it is set and the body positioning of a player. For a screen to be most effective, the screener should set the angle of his body square with the defender to achieve maximum contact. The player running off the screen should set the angle of his run in line with the angle of the screen so that defenses can't go under a screen without consequence. In the following examples, I demonstrate situations where the screener and the person coming off the screen should be making adjustments to maximize the effectiveness of the screen. </p>
@@ -666,6 +668,7 @@
 					</div>
 			</div>
 		</div>
+	</section>
 
 		<script>
 		// vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
@@ -676,7 +679,30 @@
 		// *********************************************************
 		// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+		$(document).scroll(function(){
+		    var st = $(this).scrollTop();
 
+		    $(".section").each(function() {
+		        if(st > $(this).offset().top && st <= $(this).offset().top + $(this).height() ){                    
+		            var id = $(this).attr('id');
+		            $('a[href="#'+id+'"]').addClass('underline');
+		        }else{
+		            var id = $(this).attr('id');
+		            $('a[href="#'+id+'"]').removeClass('underline');   
+		        }   
+		    });
+
+		    $(".film-analysis-section").each(function() {
+		        if(st > $(this).offset().top && st <= $(this).offset().top + $(this).height() ){                    
+		            var id = $(this).attr('id');
+		            $('a[href="#'+id+'"]').addClass('underline');
+		        }else{
+		            var id = $(this).attr('id');
+		            $('a[href="#'+id+'"]').removeClass('underline');   
+		        }   
+		    });
+
+		});
 
 			var possessions = TAFFY([]);
 			$(document).ready(function(){
